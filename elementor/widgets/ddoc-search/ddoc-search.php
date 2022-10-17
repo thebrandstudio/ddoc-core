@@ -212,7 +212,7 @@ class DRTH_ESS_Ddoc_Search extends Widget_Base {
                 <?php endif; ?>
           </div>
           <?php if($settings['show_suggestions'] == 'yes') : ?>
-            <div class="search-suggation text-center"><?php esc_html_e( 'Popular :', 'ddoc-core' ); ?>
+            <div class="search-suggation text-center"><b><?php esc_html_e( 'Lo más buscado :', 'ddoc-core' ); ?></b>
                 <?php $get_keywords = $settings['add_popular_keywords'];
                     $make_arr = explode(',', $get_keywords);
                     foreach($make_arr as $keywords) {
