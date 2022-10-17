@@ -195,7 +195,7 @@ class DRTH_ESS_Ddoc_Search extends Widget_Base {
  <div class="docoment search">
         <div class="form-content">
           <div class="<?php echo  esc_attr( $form_wrapper_class ); ?>">
-            <input type="text" class="form-control ddoc-keyworkd-imports" placeholder="<?php esc_attr_e('¿Que estás buscando hoy?', 'ddoc-core'); ?>" aria-label="¿Que estás buscando hoy?">
+            <input type="text" class="form-control ddoc-keyworkd-imports" placeholder="<?php esc_attr_e('¿Que estás buscando hoy?', 'ddoc-core'); ?>" aria-label="Search...">
                 <div class="ddoc-live-search position-absolute bg-warning d-none list-group">
 
                 </div>
