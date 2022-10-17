@@ -1,0 +1,26 @@
+.droit-section-parallax-layer {
+    position: absolute;
+    pointer-events: none;
+}
+.dladdons-parallax-graphic {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    max-width: initial !important;
+}
+
+.item_animation {
+    position: absolute;
+    overflow: hidden;
+    animation: droit-fade 5s infinite linear;
+}
+.dladdons-invisible {
+    visibility: hidden;
+}
+.dladdons-parallax-multi-container {
+    transition: none !important;
+}
+.droit-section-parallax-type-tilt {
+    pointer-events: auto !important;
+    z-index: 99999;
+}

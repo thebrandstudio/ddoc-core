@@ -1,0 +1,186 @@
+.dtdr-meta-section {
+    display: block;
+}
+
+.dtdr-meta-section .section-block{
+    padding: 10px;
+}
+
+.dtdr-meta-section .section-block label{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+}
+.wp-list-table tr th{
+    font-size: 14px;
+    font-weight: 500;
+}
+.column-drdt_shortcode, .column-drdt_type, .column-drdt_display{
+    vertical-align: middle !important;
+}
+.column-drdt_shortcode .dtdr-shortcode{
+    background-color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid bisque;
+    border-radius: 15px;
+    cursor: cursor;
+    font-weight: 500;
+}
+
+/*type mode data*/
+.droit-templates-meta{
+    display: block;
+
+}
+.droit-templates-meta label{
+    display: block;
+    font-weight: 500;
+    line-height: 2em;
+}
+.dtdr-meta-section {
+    display: block;
+}
+
+.dtdr-meta-section .section-block{
+    padding: 10px;
+}
+
+.dtdr-meta-section .section-block label{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+}
+.wp-list-table tr th{
+    font-size: 14px;
+    font-weight: 500;
+}
+.column-drdt_shortcode, .column-drdt_type, .column-drdt_display{
+    vertical-align: middle !important;
+}
+.column-drdt_shortcode .dtdr-shortcode{
+    background-color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid bisque;
+    border-radius: 15px;
+    cursor: cursor;
+    font-weight: 500;
+}
+
+/*type mode data*/
+.droit-templates-meta{
+    display: block;
+
+}
+.droit-templates-meta label{
+    display: block;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+/*404 switch*/
+  /* main styles */
+  .switch {
+    position: relative;
+  }
+  .switch input {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .switch input:checked {
+    z-index: 1;
+  }
+  .switch input:checked + label {
+    opacity: 1;
+    cursor: default;
+  }
+  .switch input:not(:checked) + label:hover {
+    opacity: 0.5;
+  }
+  .switch label {
+    color: #000;
+    opacity: 0.33;
+    transition: opacity 0.25s ease;
+    cursor: pointer;
+  }
+  .switch .toggle-outside {
+    height: 100%;
+    border-radius: 2rem;
+    padding: 0.25rem;
+    overflow: hidden;
+    transition: 0.25s ease all;
+  }
+  .switch .toggle-inside {
+    border-radius: 5rem;
+    background: #fff;
+    position: absolute;
+    transition: 0.25s ease all;
+  }
+  .switch--horizontal {
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 1rem;
+  }
+  .switch--horizontal input {
+    height: 3rem;
+    width: 40px;
+    left: 3rem;
+    margin: 0;
+  }
+  .switch--horizontal label {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    display: inline-block;
+    width: 6rem;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .switch--horizontal label:last-of-type {
+    margin-left: 40px;
+  }
+  .switch--horizontal .toggle-outside {
+    background: #5e2ced;
+    position: absolute;
+    width: 6rem;
+    left: 3rem;
+  }
+  .switch--horizontal .toggle-inside {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .switch--horizontal input:checked ~ .toggle-outside .toggle-inside {
+    left: 0.25rem;
+  }
+  .switch--horizontal input ~ input:checked ~ .toggle-outside .toggle-inside {
+    left: 23px;
+  }
+
+  .switch .toggle-outside {
+    height: 35%;
+    padding: 2px 0;
+    width: 41px !important;
+    margin-top: 15px;
+  }
+  .switch--horizontal .toggle-inside {
+    height: 16px;
+    width: 16px;
+  }
+  .switch--horizontal label {
+      font-size: 15px;
+  }
+  .switch--horizontal label {
+    width: 3rem;
+  }

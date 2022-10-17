@@ -1,0 +1,60 @@
+.video_doc_item {
+    box-shadow: 0 4px 40px rgba(238, 238, 238, 0.8);
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.video_doc_item .video-bg {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.video_doc_item .video-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
+.video_doc_item h3{
+    font-size: 18px;
+    color: #14162E;
+    font-weight: 600;
+    font-family: "Roboto", Sans-serif;
+    margin: 14px 0px;
+}
+.video_doc_item .author-info {
+    padding-top: 14px;
+}
+.video_doc_item .author-info .author{
+    align-items: center;
+}
+.video_doc_item .author-info .author img{
+    border-radius: 50%;
+    margin-right: 10px !important;
+}
+.video_doc_item .author-info .author .name{
+    font-size: 14px;
+    font-weight: 500;
+    color: #14162E;
+}
+.video_doc_item .author-info .date{
+    color: #677789;
+    font-size: 12px;
+}
+.video_doc_item .video-icon:hover{
+    background: #2579FF;
+    border-color: #2579FF !important;
+}
+
+@media (max-width: 1199px){
+    .video-docs .container{
+        max-width: 100%;
+    }
+}

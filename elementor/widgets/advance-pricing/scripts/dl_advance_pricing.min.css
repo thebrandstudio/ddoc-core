@@ -1,0 +1,119 @@
+.dl_pricing_plan_switcher {
+    display: block;
+}
+
+.dl_pricing_plan_switcher .dl_switcher_control-item {
+    display: inline-block;
+    position: relative;
+    /* border-radius: 100px;
+    background-color: #ffdada;
+    border: 1px solid #ffdada;
+    box-shadow: inset 0 0 2px 1px rgb(0 0 0 / 5%);
+    padding: 2px 4px; */
+}
+
+.dl_pricing_plan_switcher .dl_switcher_control-item.on-select {
+    border: 1px solid #333;
+}
+
+.dl_pricing_plan_switcher .dl_switcher_content-item {
+    display: none;
+}
+
+.dl_pricing_plan_switcher .dl_switcher_content-item.on-active {
+    display: block;
+}
+
+
+
+/*switcher start here*/
+
+.dl_switcher_control {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.dl_toggler_label {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #AAA7A7;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.dl_switcher_control .dl_toggle {
+    font-size: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 64px;
+    height: 30px;
+    background: transparent;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #000;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.dl_switcher_control .dl_toggle:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: #000;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    display: block;
+    top: -2px;
+}
+.dl_switcher_control.dl-active .dl_toggle::after {
+    background-color: #ffdada;
+}
+
+.dl_switcher_control.dl-active .dl_toggle {
+    border-color: #ffdada;
+}
+
+/*switcher end here*/
+
+/*tab switcher here*/
+.dl_switcher_control_inner{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.dl_switcher_control_inner label{
+    cursor: pointer;
+}
+.dl_switcher_control .dl_switcher_control_inner {
+    grid-gap: 17px;
+    background-color: #D80303;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.dl_pricing_plan_switcher .dl_switcher_control-item label {
+    color: #FFFFFF;
+}
+.dl_pricing_plan_switcher .dl_switcher_control-item {
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #02010100;
+}
+.dl_pricing_plan_switcher .dl_switcher_control-item.on-select {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+}
+.dl_pricing_plan_switcher .dl_switcher_control-item.on-select label {
+    color: #020101;
+}
+/*tab end here*/

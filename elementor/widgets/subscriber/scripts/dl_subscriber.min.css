@@ -1,0 +1,203 @@
+/*==============dl_subscribe_info css ===========*/
+.dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_pro_subscribe_form {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px;
+}
+
+.dl_pro_subscribe_form {
+  display: grid;
+}
+
+.dl_pro_subscribe_form {
+  align-items: center;
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-inline
+  .dl_form_control_wrap:first-child {
+  border-left: 0px solid transparent;
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-inline
+  .dl_pro_subscribe_form
+  .dl_form_control_wrap
+  input {
+  border-radius: 0;
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_form_control_wrap {
+  width: 87%;
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_pro_subscribe_form {
+  background: #f6f6f6;
+}
+
+.dl_pro_subscribe_form .dl_form_control {
+  width: 100%;
+  color: #899097;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  line-height: 54px;
+  padding: 0px 10px 0px 30px;
+  margin: 0px 0px 0px 0px;
+  height: auto;
+}
+
+.dl_cu_btn {
+  background: #fb264e;
+  border-color: #fb264e;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+  .dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_form_control_wrap {
+    border-left: 0px solid transparent;
+  }
+
+  .dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_pro_subscribe_form {
+    flex-wrap: wrap;
+  }
+
+  .dl_pro_subscribe_form_action.dl-pro-sub-inline
+    .dl_pro_subscribe_form
+    .dl_form_control_wrap {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+  }
+
+  .dl_pro_subscribe_form_action.dl-pro-sub-inline
+    .dl_pro_subscribe_form
+    .dl_form_control_wrap
+    input {
+    margin-top: 0;
+    width: 100%;
+    display: block;
+  }
+
+  .dl_pro_subscribe_form_action.dl-pro-sub-inline
+    .dl_pro_subscribe_form
+    .dl_cu_btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-block
+  .dl_pro_subscribe_form
+  .dl_form_control {
+  line-height: inherit;
+  margin: 0px;
+}
+
+.dl_subscribe_addons .dl_form_control_wrap input {
+  width: 100%;
+  display: block;
+}
+
+.dl_subscribe_addons .dl_form_control_wrap {
+  width: 100%;
+  display: block;
+}
+
+.elementor-widget-droit-subscriber .dl_pro_subscribe_form {
+  padding: 10px 20px 10px 20px;
+  background-color: #ffffff;
+  border-radius: 30px 30px 30px 30px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dl_subscribe_addons .dl_cu_btn {
+  white-space: nowrap;
+}
+
+.dl_pro_subscribe_form .dl_form_control_wrap label {
+  margin: 0px;
+  display: block;
+}
+
+.dl_form_control_wrap .dl_form_control {
+  box-shadow: none;
+}
+
+.dl_pro_subscribe_form .dl_checkbox {
+  display: block;
+  margin-bottom: 60px;
+  margin-top: 45px;
+  width: 100%;
+}
+
+.dl_pro_subscribe_form .dl_checkbox label {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.dl_pro_subscribe_form .dl_checkbox label:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  position: absolute;
+  border: 2px solid #dcdee2;
+  left: 0;
+  top: 2px;
+  transition: all 0.2s linear;
+}
+
+.dl_pro_subscribe_form .dl_checkbox input {
+  display: none;
+}
+
+.dl_pro_subscribe_form .dl_checkbox label {
+  margin-bottom: 0;
+}
+
+.dl_pro_subscribe_form .dl_checkbox label:after {
+  content: "\e95b";
+  position: absolute;
+  font-family: "Droit Icons" !important;
+  left: 5px;
+  font-size: 9px;
+  top: 2px;
+  transition: all 0.2s linear;
+  line-height: 20px;
+  transform: scale(0);
+}
+
+.dl_pro_subscribe_form
+  .dl_checkbox
+  input[type="checkbox"]:checked
+  + label:after {
+  transform: scale(1);
+}
+
+span.dl_subs_message {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_form_control_wrap {
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+.dl_pro_subscribe_form_action.dl-pro-sub-inline
+  .dl_pro_subscribe_form
+  .dl_form_control_wrap
+  input {
+  border-radius: 5px;
+}
+
+.elementor-widget-droit-subscriber .dl_pro_subscribe_form {
+  padding: 15px;
+}

@@ -1,0 +1,3913 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Ddoc Core\n"
+"POT-Creation-Date: 2022-05-17 17:12+0600\n"
+"PO-Revision-Date: 2022-05-17 17:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ddoc-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: elementor/controls/groups/button-hover-advanced-second.php:23
+#: elementor/controls/groups/button-hover-advanced.php:472
+#: elementor/controls/sections/lottie/class-lottie.php:472
+msgid "Direction"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced-second.php:27
+#: elementor/controls/groups/button-hover-advanced.php:476
+#: elementor/controls/sections/parallax/class-parallax.php:215
+#: elementor/controls/sections/parallax/class-parallax.php:216
+#: elementor/widgets/advance-pricing/advance-pricing.php:181
+#: elementor/widgets/advance-pricing/advance-pricing.php:541
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:759
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:68
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:156
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:592
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:621
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:95
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:737
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:816
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1010
+#: elementor/widgets/subscriber/subscriber-control.php:479
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:803
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:938
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1402
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1505
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1553
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1629
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1676
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2020
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2065
+#: elementor/widgets/video-popup/video-popup-control.php:96
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:133
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:250
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:121
+msgid "Left"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced-second.php:31
+#: elementor/controls/groups/button-hover-advanced.php:480
+#: elementor/controls/sections/parallax/class-parallax.php:215
+#: elementor/controls/sections/parallax/class-parallax.php:216
+#: elementor/widgets/advance-pricing/advance-pricing.php:189
+#: elementor/widgets/advance-pricing/advance-pricing.php:549
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:767
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:72
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:160
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:596
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:629
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:99
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:745
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:820
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1018
+#: elementor/widgets/subscriber/subscriber-control.php:487
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:811
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:946
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1509
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1583
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1633
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1706
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2073
+#: elementor/widgets/video-popup/video-popup-control.php:100
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:301
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:141
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:258
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:129
+msgid "Right"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced-second.php:40
+#: elementor/controls/groups/button-hover-advanced-second.php:60
+#: elementor/controls/groups/button-hover-advanced.php:489
+#: elementor/controls/groups/button-hover-advanced.php:509
+#: elementor/controls/groups/content-typography.php:89
+msgid "Transform"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced-second.php:105
+#: elementor/widgets/video-popup/video-popup-control.php:516
+msgid "After Hover"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:29
+#: elementor/controls/groups/button-hover.php:30
+#: elementor/controls/groups/button.php:23
+#: elementor/controls/groups/icon-svg.php:28
+msgid "Background Type"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:33
+#: elementor/controls/groups/button-hover.php:34
+#: elementor/controls/groups/button.php:27
+#: elementor/controls/groups/icon-svg.php:32
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:119
+msgid "Classic"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:37
+#: elementor/controls/groups/button-hover.php:38
+#: elementor/controls/groups/button.php:31
+#: elementor/controls/groups/icon-svg.php:36
+msgid "Gradient"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:47
+#: elementor/controls/groups/button-hover-advanced.php:456
+#: elementor/controls/groups/button-hover.php:48
+#: elementor/controls/groups/button.php:41
+#: elementor/controls/groups/button.php:450
+#: elementor/controls/groups/content-typography.php:49
+#: elementor/controls/groups/icon-svg.php:46
+#: elementor/controls/groups/icon.php:28
+#: elementor/controls/groups/image.php:130
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:321
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:339
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:367
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:483
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:599
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1124
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1164
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1203
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1532
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1581
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1838
+#: elementor/widgets/subscriber/subscriber-control.php:308
+#: elementor/widgets/subscriber/subscriber-control.php:426
+#: elementor/widgets/subscriber/subscriber-control.php:507
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:847
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1064
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1117
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1288
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1350
+msgid "Color"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:50
+#: elementor/controls/groups/button-hover.php:51
+#: elementor/controls/groups/button.php:44
+#: elementor/controls/groups/icon-svg.php:49
+#: elementor/controls/sections/lottie/class-lottie.php:412
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:222
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:247
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:644
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1402
+#: elementor/widgets/ddoc-search/ddoc-search.php:104
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:722
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:114
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:161
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:173
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:301
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:362
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:471
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:529
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:597
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1174
+msgid "Background Color"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:58
+#: elementor/controls/groups/button-hover-advanced.php:84
+#: elementor/controls/groups/button-hover.php:59
+#: elementor/controls/groups/button-hover.php:85
+#: elementor/controls/groups/button.php:52
+#: elementor/controls/groups/button.php:78
+#: elementor/controls/groups/icon-svg.php:57
+#: elementor/controls/groups/icon-svg.php:83
+msgid "Location"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:73
+#: elementor/controls/groups/button-hover.php:74
+#: elementor/controls/groups/button.php:67
+#: elementor/controls/groups/icon-svg.php:72
+msgid "Second Color"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:99
+#: elementor/controls/groups/button-hover.php:100
+#: elementor/controls/groups/button.php:93
+#: elementor/controls/groups/icon-svg.php:98
+msgid "Type"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:102
+#: elementor/controls/groups/button-hover.php:103
+#: elementor/controls/groups/button.php:96
+#: elementor/controls/groups/icon-svg.php:101
+msgid "Linear"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:103
+#: elementor/controls/groups/button-hover.php:104
+#: elementor/controls/groups/button.php:97
+#: elementor/controls/groups/icon-svg.php:102
+msgid "Radial"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:114
+#: elementor/controls/groups/button-hover.php:115
+#: elementor/controls/groups/button.php:108
+#: elementor/controls/groups/icon-svg.php:113
+msgid "Angle"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:135
+#: elementor/controls/groups/button-hover-advanced.php:173
+#: elementor/controls/groups/button-hover-advanced.php:577
+#: elementor/controls/groups/button-hover.php:136
+#: elementor/controls/groups/button-hover.php:174
+#: elementor/controls/groups/button-hover.php:474
+#: elementor/controls/groups/button.php:129
+#: elementor/controls/groups/button.php:167
+#: elementor/controls/groups/button.php:491
+#: elementor/controls/groups/icon-svg.php:134
+#: elementor/controls/groups/icon-svg.php:172
+#: elementor/controls/groups/icon-svg.php:561
+#: elementor/controls/groups/icon.php:34 elementor/controls/groups/icon.php:363
+#: elementor/controls/groups/image.php:177
+#: elementor/controls/groups/position.php:112
+#: elementor/controls/sections/parallax/class-parallax.php:205
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:150
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1670
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1848
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2081
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2304
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1101
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1474
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1974
+#: elementor/widgets/video-popup/video-popup-control.php:90
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:751
+msgid "Position"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:138
+#: elementor/controls/groups/button-hover-advanced.php:179
+#: elementor/controls/groups/button-hover.php:139
+#: elementor/controls/groups/button-hover.php:180
+#: elementor/controls/groups/button.php:132
+#: elementor/controls/groups/button.php:173
+#: elementor/controls/groups/icon-svg.php:137
+#: elementor/controls/groups/icon-svg.php:178
+#: elementor/controls/groups/icon.php:40
+msgid "Center Center"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:139
+#: elementor/controls/groups/button-hover-advanced.php:180
+#: elementor/controls/groups/button-hover.php:140
+#: elementor/controls/groups/button-hover.php:181
+#: elementor/controls/groups/button.php:133
+#: elementor/controls/groups/button.php:174
+#: elementor/controls/groups/icon-svg.php:138
+#: elementor/controls/groups/icon-svg.php:179
+#: elementor/controls/groups/icon.php:41
+msgid "Center Left"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:140
+#: elementor/controls/groups/button-hover-advanced.php:181
+#: elementor/controls/groups/button-hover.php:141
+#: elementor/controls/groups/button-hover.php:182
+#: elementor/controls/groups/button.php:134
+#: elementor/controls/groups/button.php:175
+#: elementor/controls/groups/icon-svg.php:139
+#: elementor/controls/groups/icon-svg.php:180
+#: elementor/controls/groups/icon.php:42
+msgid "Center Right"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:141
+#: elementor/controls/groups/button-hover-advanced.php:182
+#: elementor/controls/groups/button-hover.php:142
+#: elementor/controls/groups/button-hover.php:183
+#: elementor/controls/groups/button.php:135
+#: elementor/controls/groups/button.php:176
+#: elementor/controls/groups/icon-svg.php:140
+#: elementor/controls/groups/icon-svg.php:181
+#: elementor/controls/groups/icon.php:43
+msgid "Top Center"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:142
+#: elementor/controls/groups/button-hover-advanced.php:183
+#: elementor/controls/groups/button-hover.php:143
+#: elementor/controls/groups/button-hover.php:184
+#: elementor/controls/groups/button.php:136
+#: elementor/controls/groups/button.php:177
+#: elementor/controls/groups/icon-svg.php:141
+#: elementor/controls/groups/icon-svg.php:182
+#: elementor/controls/groups/icon.php:44
+msgid "Top Left"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:143
+#: elementor/controls/groups/button-hover-advanced.php:184
+#: elementor/controls/groups/button-hover.php:144
+#: elementor/controls/groups/button-hover.php:185
+#: elementor/controls/groups/button.php:137
+#: elementor/controls/groups/button.php:178
+#: elementor/controls/groups/icon-svg.php:142
+#: elementor/controls/groups/icon-svg.php:183
+#: elementor/controls/groups/icon.php:45
+msgid "Top Right"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:144
+#: elementor/controls/groups/button-hover-advanced.php:185
+#: elementor/controls/groups/button-hover.php:145
+#: elementor/controls/groups/button-hover.php:186
+#: elementor/controls/groups/button.php:138
+#: elementor/controls/groups/button.php:179
+#: elementor/controls/groups/icon-svg.php:143
+#: elementor/controls/groups/icon-svg.php:184
+#: elementor/controls/groups/icon.php:46
+msgid "Bottom Center"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:145
+#: elementor/controls/groups/button-hover-advanced.php:186
+#: elementor/controls/groups/button-hover.php:146
+#: elementor/controls/groups/button-hover.php:187
+#: elementor/controls/groups/button.php:139
+#: elementor/controls/groups/button.php:180
+#: elementor/controls/groups/icon-svg.php:144
+#: elementor/controls/groups/icon-svg.php:185
+#: elementor/controls/groups/icon.php:47
+msgid "Bottom Left"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:146
+#: elementor/controls/groups/button-hover-advanced.php:187
+#: elementor/controls/groups/button-hover.php:147
+#: elementor/controls/groups/button-hover.php:188
+#: elementor/controls/groups/button.php:140
+#: elementor/controls/groups/button.php:181
+#: elementor/controls/groups/icon-svg.php:145
+#: elementor/controls/groups/icon-svg.php:186
+#: elementor/controls/groups/icon.php:48
+msgid "Bottom Right"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:158
+#: elementor/controls/groups/button-hover.php:159
+#: elementor/controls/groups/button.php:152
+#: elementor/controls/groups/icon-svg.php:157
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:140
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:196
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:231
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:272
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:302
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:326
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:356
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:380
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:409
+#: elementor/widgets/video-popup/video-popup-control.php:80
+#: elementor/widgets/video-popup/video-popup-control.php:136
+msgid "Image"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:164
+#: elementor/controls/groups/button-hover.php:165
+#: elementor/controls/groups/button.php:158
+#: elementor/controls/groups/icon-svg.php:163
+msgid "Background Image"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:178
+#: elementor/controls/groups/button-hover-advanced.php:323
+#: elementor/controls/groups/button-hover-advanced.php:354
+#: elementor/controls/groups/button-hover-advanced.php:373
+#: elementor/controls/groups/button-hover.php:179
+#: elementor/controls/groups/button-hover.php:324
+#: elementor/controls/groups/button-hover.php:355
+#: elementor/controls/groups/button-hover.php:374
+#: elementor/controls/groups/button.php:172
+#: elementor/controls/groups/button.php:317
+#: elementor/controls/groups/button.php:348
+#: elementor/controls/groups/button.php:367
+#: elementor/controls/groups/content-typography.php:74
+#: elementor/controls/groups/content-typography.php:93
+#: elementor/controls/groups/content-typography.php:106
+#: elementor/controls/groups/content-typography.php:118
+#: elementor/controls/groups/icon-svg.php:177
+#: elementor/controls/groups/icon-svg.php:322
+#: elementor/controls/groups/icon-svg.php:353
+#: elementor/controls/groups/icon-svg.php:372
+#: elementor/controls/groups/icon.php:39 elementor/controls/groups/icon.php:184
+#: elementor/controls/groups/icon.php:215
+#: elementor/controls/groups/icon.php:234
+#: elementor/controls/groups/image.php:94
+#: elementor/controls/sections/parallax/class-parallax.php:122
+#: elementor/controls/sections/parallax/class-parallax.php:207
+#: elementor/controls/sections/parallax/class-parallax.php:457
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:91
+#: module/droit-header-footer-builder/includes/posttype.php:325
+#: module/droit-header-footer-builder/includes/posttype.php:346
+msgid "Default"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:188
+#: elementor/controls/groups/button-hover-advanced.php:377
+#: elementor/controls/groups/button-hover.php:189
+#: elementor/controls/groups/button-hover.php:378
+#: elementor/controls/groups/button.php:182
+#: elementor/controls/groups/button.php:371
+#: elementor/controls/groups/icon-svg.php:187
+#: elementor/controls/groups/icon-svg.php:376
+#: elementor/controls/groups/icon.php:49 elementor/controls/groups/icon.php:238
+#: elementor/controls/sections/parallax/class-parallax.php:125
+#: elementor/controls/sections/parallax/class-parallax.php:208
+#: elementor/controls/sections/parallax/class-parallax.php:458
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1545
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1673
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1851
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2084
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2307
+msgid "Custom"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:199
+#: elementor/controls/groups/button-hover.php:200
+#: elementor/controls/groups/button.php:193
+#: elementor/controls/groups/icon-svg.php:198
+#: elementor/controls/groups/icon.php:60
+msgid "X Position"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:259
+#: elementor/controls/groups/button-hover.php:260
+#: elementor/controls/groups/button.php:253
+#: elementor/controls/groups/icon-svg.php:258
+#: elementor/controls/groups/icon.php:120
+msgid "Y Position"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:319
+#: elementor/controls/groups/button-hover.php:320
+#: elementor/controls/groups/button.php:313
+#: elementor/controls/groups/icon-svg.php:318
+#: elementor/controls/groups/icon.php:180
+msgid "Attachment"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:324
+#: elementor/controls/groups/button-hover.php:325
+#: elementor/controls/groups/button.php:318
+#: elementor/controls/groups/icon-svg.php:323
+#: elementor/controls/groups/icon.php:185
+msgid "Scroll"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:325
+#: elementor/controls/groups/button-hover.php:326
+#: elementor/controls/groups/button.php:319
+#: elementor/controls/groups/icon-svg.php:324
+#: elementor/controls/groups/icon.php:186
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1366
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1478
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1979
+msgid "Fixed"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:339
+#: elementor/controls/groups/button-hover.php:340
+#: elementor/controls/groups/button.php:333
+#: elementor/controls/groups/icon-svg.php:338
+#: elementor/controls/groups/icon.php:200
+msgid "Note: Attachment Fixed works only on desktop."
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:349
+#: elementor/controls/groups/button-hover-advanced.php:356
+#: elementor/controls/groups/button-hover.php:350
+#: elementor/controls/groups/button-hover.php:357
+#: elementor/controls/groups/button.php:343
+#: elementor/controls/groups/button.php:350
+#: elementor/controls/groups/icon-svg.php:348
+#: elementor/controls/groups/icon-svg.php:355
+#: elementor/controls/groups/icon.php:210
+#: elementor/controls/groups/icon.php:217
+msgid "Repeat"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:355
+#: elementor/controls/groups/button-hover.php:356
+#: elementor/controls/groups/button.php:349
+#: elementor/controls/groups/icon-svg.php:354
+#: elementor/controls/groups/icon.php:216
+msgid "No-repeat"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:357
+#: elementor/controls/groups/button-hover.php:358
+#: elementor/controls/groups/button.php:351
+#: elementor/controls/groups/icon-svg.php:356
+#: elementor/controls/groups/icon.php:218
+msgid "Repeat-x"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:358
+#: elementor/controls/groups/button-hover.php:359
+#: elementor/controls/groups/button.php:352
+#: elementor/controls/groups/icon-svg.php:357
+#: elementor/controls/groups/icon.php:219
+msgid "Repeat-y"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:368
+#: elementor/controls/groups/button-hover.php:369
+#: elementor/controls/groups/button-size.php:134
+#: elementor/controls/groups/button.php:362
+#: elementor/controls/groups/content-typography.php:55
+#: elementor/controls/groups/icon-svg.php:367
+#: elementor/controls/groups/icon.php:229
+#: elementor/controls/sections/parallax/class-parallax.php:118
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1253
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1324
+#: elementor/widgets/video-popup/video-popup-control.php:257
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:226
+msgid "Size"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:374
+#: elementor/controls/groups/button-hover.php:375
+#: elementor/controls/groups/button.php:368
+#: elementor/controls/groups/icon-svg.php:373
+#: elementor/controls/groups/icon.php:235
+msgid "Auto"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:375
+#: elementor/controls/groups/button-hover.php:376
+#: elementor/controls/groups/button.php:369
+#: elementor/controls/groups/icon-svg.php:374
+#: elementor/controls/groups/icon.php:236
+#: elementor/controls/groups/image.php:96
+msgid "Cover"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:376
+#: elementor/controls/groups/button-hover.php:377
+#: elementor/controls/groups/button.php:370
+#: elementor/controls/groups/icon-svg.php:375
+#: elementor/controls/groups/icon.php:237
+#: elementor/controls/groups/image.php:97
+msgid "Contain"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:387
+#: elementor/controls/groups/button-hover-advanced.php:447
+#: elementor/controls/groups/button-hover.php:388
+#: elementor/controls/groups/button-size.php:29
+#: elementor/controls/groups/button.php:381
+#: elementor/controls/groups/button.php:441
+#: elementor/controls/groups/icon-svg.php:386
+#: elementor/controls/groups/icon-svg.php:433
+#: elementor/controls/groups/icon.php:248
+#: elementor/controls/groups/image.php:31
+#: elementor/controls/groups/image.php:121
+#: elementor/widgets/advance-pricing/advance-pricing.php:304
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:533
+#: elementor/widgets/subscriber/subscriber-control.php:188
+#: elementor/widgets/subscriber/subscriber-control.php:234
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1760
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2177
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2235
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:265
+msgid "Width"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:434
+#: elementor/controls/groups/button.php:428
+#: elementor/controls/groups/image.php:108
+msgid "Border Type"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:437
+#: elementor/controls/groups/button.php:431
+#: elementor/controls/groups/content-typography.php:122
+#: elementor/controls/groups/image.php:111
+#: elementor/controls/sections/lottie/class-lottie.php:211
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:132
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1544
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1672
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1850
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2083
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2306
+#: elementor/widgets/video-popup/video-popup-control.php:72
+msgid "None"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:438
+#: elementor/controls/groups/button.php:432
+#: elementor/controls/groups/image.php:112
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:578
+msgid "Solid"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:439
+#: elementor/controls/groups/button.php:433
+#: elementor/controls/groups/image.php:113
+msgid "Double"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:440
+#: elementor/controls/groups/button.php:434
+#: elementor/controls/groups/image.php:114
+msgid "Dotted"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:441
+#: elementor/controls/groups/button.php:435
+#: elementor/controls/groups/image.php:115
+msgid "Dashed"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:466
+#: elementor/controls/groups/button.php:460
+#: elementor/controls/groups/image.php:140
+#: elementor/controls/sections/lottie/class-lottie.php:431
+#: elementor/widgets/advance-pricing/advance-pricing.php:605
+#: elementor/widgets/advance-pricing/advance-pricing.php:702
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:563
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:700
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:364
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:806
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:988
+#: elementor/widgets/subscriber/subscriber-control.php:159
+#: elementor/widgets/subscriber/subscriber-control.php:396
+#: elementor/widgets/subscriber/subscriber-control.php:575
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:779
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1036
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1834
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2138
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:211
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:803
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:529
+msgid "Transition Type"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:541
+#: elementor/controls/groups/button-hover.php:442
+#: elementor/controls/sections/transform/class-transform.php:756
+msgid "Transition Duration"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:558
+msgid "Enable Shadow"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:560
+#: elementor/controls/groups/button-hover.php:457
+#: elementor/controls/groups/button.php:475
+#: elementor/controls/groups/icon-svg.php:544
+#: elementor/controls/groups/icon.php:346
+#: elementor/controls/groups/image.php:160
+#: elementor/controls/sections/parallax/class-parallax.php:80
+#: elementor/controls/sections/parallax/class-parallax.php:636
+#: elementor/controls/sections/parallax/class-parallax.php:757
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:519
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:380
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:427
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:507
+#: elementor/widgets/video-popup/video-popup-control.php:182
+#: elementor/widgets/video-popup/video-popup-control.php:194
+#: elementor/widgets/video-popup/video-popup-control.php:206
+#: module/droit-header-footer-builder/includes/widgets-loader.php:124
+msgid "Yes"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:561
+#: elementor/controls/groups/button-hover.php:458
+#: elementor/controls/groups/button.php:476
+#: elementor/controls/groups/icon-svg.php:545
+#: elementor/controls/groups/icon.php:347
+#: elementor/controls/groups/image.php:161
+#: elementor/controls/sections/parallax/class-parallax.php:81
+#: elementor/controls/sections/parallax/class-parallax.php:637
+#: elementor/controls/sections/parallax/class-parallax.php:758
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:520
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:381
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:428
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:508
+#: elementor/widgets/video-popup/video-popup-control.php:183
+#: elementor/widgets/video-popup/video-popup-control.php:195
+#: elementor/widgets/video-popup/video-popup-control.php:207
+#: module/droit-header-footer-builder/includes/widgets-loader.php:125
+msgid "No"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:568
+#: elementor/controls/groups/button-hover.php:455
+#: elementor/controls/groups/button.php:473
+msgid "Shadow"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:580
+#: elementor/controls/groups/button-hover.php:477
+#: elementor/controls/groups/button.php:494
+#: elementor/controls/groups/icon-svg.php:564
+#: elementor/controls/groups/icon.php:366
+#: elementor/controls/groups/image.php:180
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:582
+msgid "Outline"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:581
+#: elementor/controls/groups/button-hover.php:478
+#: elementor/controls/groups/button.php:495
+#: elementor/controls/groups/icon-svg.php:565
+#: elementor/controls/groups/icon.php:367
+#: elementor/controls/groups/image.php:181
+msgid "Inset"
+msgstr ""
+
+#: elementor/controls/groups/button-hover-advanced.php:617
+#: elementor/widgets/video-popup/video-popup-control.php:505
+msgid "After Setting"
+msgstr ""
+
+#: elementor/controls/groups/button-hover.php:23
+#: elementor/controls/groups/button-hover.php:26
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:166
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:199
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:290
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:348
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:459
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:516
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:685
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:713
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1048
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1076
+msgid "Text Color"
+msgstr ""
+
+#: elementor/controls/groups/button-hover.php:435
+#: elementor/widgets/advance-pricing/advance-pricing.php:381
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:257
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1943
+msgid "Border Color"
+msgstr ""
+
+#: elementor/controls/groups/button-hover.php:465
+#: elementor/controls/groups/button.php:482
+msgid "Button Shadow"
+msgstr ""
+
+#: elementor/controls/groups/button-hover.php:512
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1389
+#: elementor/widgets/video-popup/video-popup-control.php:488
+msgid "Hover Setting"
+msgstr ""
+
+#: elementor/controls/groups/button-size.php:59
+#: elementor/controls/groups/icon-svg.php:463
+#: elementor/controls/groups/image.php:61
+#: elementor/widgets/advance-pricing/advance-pricing.php:278
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:520
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1746
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2162
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2220
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:241
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:577
+msgid "Height"
+msgstr ""
+
+#: elementor/controls/groups/button.php:466
+#: elementor/controls/groups/image.php:146
+#: elementor/controls/sections/lottie/class-lottie.php:451
+#: elementor/widgets/advance-pricing/advance-pricing.php:594
+#: elementor/widgets/advance-pricing/advance-pricing.php:663
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:681
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:339
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:732
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:768
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:957
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1055
+#: elementor/widgets/subscriber/subscriber-control.php:140
+#: elementor/widgets/subscriber/subscriber-control.php:338
+#: elementor/widgets/subscriber/subscriber-control.php:555
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:735
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:857
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:225
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:646
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:884
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1010
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1162
+msgid "Padding"
+msgstr ""
+
+#: elementor/controls/groups/button.php:529
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:558
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:646
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:689
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1348
+#: elementor/widgets/video-popup/video-popup-control.php:346
+msgid "Button Setting"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:42
+msgid "Family"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:82
+msgid "Weight"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:94
+msgid "Uppercase"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:95
+msgid "Lowercase"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:96
+msgid "Capitalize"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:97
+#: elementor/controls/groups/content-typography.php:107
+#: elementor/controls/sections/transform/class-transform.php:82
+#: elementor/widgets/advance-pricing/advance-pricing.php:335
+#: elementor/widgets/advance-pricing/advance-pricing.php:426
+#: elementor/widgets/advance-pricing/advance-pricing.php:638
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:195
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:288
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:454
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:392
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1086
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1259
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1495
+#: elementor/widgets/subscriber/subscriber-control.php:220
+#: elementor/widgets/subscriber/subscriber-control.php:293
+#: elementor/widgets/subscriber/subscriber-control.php:468
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1365
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1477
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1885
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1977
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2155
+#: elementor/widgets/video-popup/video-popup-control.php:230
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:96
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:159
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:283
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:452
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:679
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:908
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1042
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:154
+msgid "Normal"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:102
+#: elementor/widgets/test/test.php:69
+#: elementor/widgets/video-docs/video-docs.php:141
+msgid "Style"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:108
+msgid "Italic"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:109
+msgid "Oblique"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:114
+msgid "Decoration"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:119
+msgid "Underline"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:120
+msgid "Overline"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:121
+msgid "Line Through"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:127
+msgid "Line-Height"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:149
+msgid "Letter Spacing"
+msgstr ""
+
+#: elementor/controls/groups/content-typography.php:207
+#: elementor/widgets/advance-pricing/advance-pricing.php:646
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:314
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:498
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1117
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1188
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1288
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1525
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1608
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1831
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2019
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2242
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:161
+#: elementor/widgets/ddoc-search/ddoc-search.php:128
+#: elementor/widgets/subscriber/subscriber-control.php:331
+#: elementor/widgets/subscriber/subscriber-control.php:500
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:839
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1057
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1110
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1202
+#: elementor/widgets/video-popup/video-popup-control.php:283
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:216
+msgid "Typography"
+msgstr ""
+
+#: elementor/controls/groups/icon-svg.php:493
+#: elementor/controls/groups/icon.php:295
+#: elementor/controls/groups/position.php:24
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1685
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1863
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2096
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2319
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:102
+msgid "Horizontal"
+msgstr ""
+
+#: elementor/controls/groups/icon-svg.php:524
+#: elementor/controls/groups/icon.php:326
+#: elementor/controls/groups/position.php:55
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1703
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1887
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2114
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2337
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:103
+msgid "Vertical"
+msgstr ""
+
+#: elementor/controls/groups/icon-svg.php:542
+#: elementor/controls/groups/icon-svg.php:552
+#: elementor/controls/groups/icon.php:344
+#: elementor/controls/groups/icon.php:354
+msgid "Icon Shadow"
+msgstr ""
+
+#: elementor/controls/groups/icon-svg.php:618
+#: elementor/controls/groups/icon.php:420
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1753
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1784
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1941
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1972
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2164
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2195
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2387
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2418
+#: elementor/widgets/video-popup/video-popup-control.php:377
+#: elementor/widgets/video-popup/video-popup-control.php:408
+msgid "Icon Setting"
+msgstr ""
+
+#: elementor/controls/groups/image.php:91
+msgid "Object Fit"
+msgstr ""
+
+#: elementor/controls/groups/image.php:95
+msgid "Fill"
+msgstr ""
+
+#: elementor/controls/groups/image.php:152
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:779
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:969
+#: elementor/widgets/ddoc-search/ddoc-search.php:176
+#: elementor/widgets/subscriber/subscriber-control.php:129
+#: elementor/widgets/subscriber/subscriber-control.php:349
+#: elementor/widgets/subscriber/subscriber-control.php:544
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:635
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:873
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:999
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1151
+msgid "Margin"
+msgstr ""
+
+#: elementor/controls/groups/image.php:158
+#: elementor/controls/groups/image.php:168
+msgid "Image Shadow"
+msgstr ""
+
+#: elementor/controls/groups/image.php:232
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:211
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1432
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1723
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1911
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2134
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2357
+#: elementor/widgets/video-popup/video-popup-control.php:354
+msgid "Image Setting"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:61
+msgid "Droit Effect"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:76
+msgid "Floating Effects"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:86
+#: elementor/controls/sections/transform/class-transform.php:92
+#: elementor/controls/sections/transform/class-transform.php:430
+msgid "Translate"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:101
+#: elementor/controls/sections/transform/class-transform.php:106
+#: elementor/controls/sections/transform/class-transform.php:444
+msgid "Translate X"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:117
+#: elementor/controls/sections/effect/class-effect.php:150
+#: elementor/controls/sections/effect/class-effect.php:247
+#: elementor/controls/sections/effect/class-effect.php:280
+#: elementor/controls/sections/effect/class-effect.php:313
+#: elementor/controls/sections/effect/class-effect.php:411
+#: elementor/controls/sections/effect/class-effect.php:445
+msgid "From"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:118
+#: elementor/controls/sections/effect/class-effect.php:151
+#: elementor/controls/sections/effect/class-effect.php:248
+#: elementor/controls/sections/effect/class-effect.php:281
+#: elementor/controls/sections/effect/class-effect.php:314
+#: elementor/controls/sections/effect/class-effect.php:412
+#: elementor/controls/sections/effect/class-effect.php:446
+msgid "To"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:134
+#: elementor/controls/sections/transform/class-transform.php:128
+#: elementor/controls/sections/transform/class-transform.php:466
+msgid "Translate Y"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:167
+#: elementor/controls/sections/effect/class-effect.php:330
+#: elementor/controls/sections/effect/class-effect.php:462
+msgid "Duration"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:192
+#: elementor/controls/sections/effect/class-effect.php:355
+#: elementor/controls/sections/effect/class-effect.php:487
+msgid "Delay"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:216
+#: elementor/controls/sections/lottie/class-lottie.php:391
+#: elementor/controls/sections/transform/class-transform.php:152
+#: elementor/controls/sections/transform/class-transform.php:490
+msgid "Rotate"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:231
+#: elementor/controls/sections/transform/class-transform.php:192
+#: elementor/controls/sections/transform/class-transform.php:530
+msgid "Rotate X"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:264
+#: elementor/controls/sections/transform/class-transform.php:215
+#: elementor/controls/sections/transform/class-transform.php:553
+msgid "Rotate Y"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:297
+msgid "Rotate Z"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:379
+#: elementor/controls/sections/transform/class-transform.php:262
+#: elementor/controls/sections/transform/class-transform.php:600
+msgid "Scale"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:394
+msgid "Scale X"
+msgstr ""
+
+#: elementor/controls/sections/effect/class-effect.php:428
+#: elementor/controls/sections/transform/class-transform.php:329
+#: elementor/controls/sections/transform/class-transform.php:667
+msgid "Scale Y"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:116
+msgid "Lottie Effect"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:124
+msgid "Lottie Animations"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:126
+msgid "Enable lottie animation for animate your site."
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:137
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:440
+#: elementor/widgets/video-popup/video-popup-control.php:154
+msgid "Source"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:140
+msgid "External URL"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:141
+msgid "Media File"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:150
+msgid "Animation JSON URL"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:164
+msgid "Upload JSON File"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:177
+#: elementor/widgets/video-popup/video-popup-control.php:192
+msgid "Loop"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:187
+msgid "Reverse"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:196
+#: elementor/controls/sections/lottie/class-lottie.php:488
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:227
+msgid "Speed"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:208
+msgid "Hover Action"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:212
+msgid "Play"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:213
+msgid "Pause"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:222
+msgid "Viewport Animation"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:224
+msgid ""
+"Enable this option if you want the animation to start when the element is "
+"visible on the viewport"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:236
+msgid "Animate On Scroll"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:250
+msgid "Animate Speed"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:272
+msgid "Animate Viewport"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:282
+#: elementor/controls/sections/lottie/class-lottie.php:518
+#: elementor/controls/sections/parallax/class-parallax.php:330
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:168
+#: elementor/widgets/video-popup/video-popup-control.php:108
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:325
+msgid "Bottom"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:283
+#: elementor/controls/sections/lottie/class-lottie.php:519
+#: elementor/controls/sections/parallax/class-parallax.php:326
+#: elementor/widgets/advance-pricing/advance-pricing.php:442
+#: elementor/widgets/advance-pricing/advance-pricing.php:489
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:164
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1431
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1523
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1647
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1991
+#: elementor/widgets/video-popup/video-popup-control.php:104
+msgid "Top"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:298
+msgid "Render As"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:301
+msgid "SVG"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:302
+msgid "Canvas"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:314
+msgid "Horizontal Position (%)"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:332
+msgid "Vertical Position (%)"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:349
+msgid "File Size"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:373
+#: elementor/controls/sections/parallax/class-parallax.php:429
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:172
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:208
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:366
+msgid "Opacity"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:393
+msgid "Set rotation value in degrees"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:463
+msgid "Scroll Parallax"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:464
+msgid "Enable or disable vertical scroll parallax"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:475
+msgid "Up"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:476
+msgid "Down"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:508
+msgid "Viewport"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:532
+#: elementor/controls/sections/parallax/class-parallax.php:417
+msgid "z-index"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:533
+msgid "Set z-index for the current layer"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:546
+msgid "Show Layer On"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:549
+msgid "Desktop"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:550
+msgid "Tablet"
+msgstr ""
+
+#: elementor/controls/sections/lottie/class-lottie.php:551
+msgid "Mobile"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:70
+msgid "Parallax Effect"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:78
+msgid "Enable Parallax"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:93
+msgid "Item source"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:106
+msgid "Choose Image"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:123
+msgid "Full Width"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:124
+#: elementor/widgets/subscriber/subscriber.php:75
+msgid "Inline"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:140
+msgid "Custom Width"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:177
+msgid "Vertical Align"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:181
+msgid "Start"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:185
+#: elementor/widgets/advance-pricing/advance-pricing.php:185
+#: elementor/widgets/advance-pricing/advance-pricing.php:545
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:763
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:625
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:741
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1014
+#: elementor/widgets/subscriber/subscriber-control.php:483
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:425
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:807
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:942
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2069
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:137
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:254
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:125
+msgid "Center"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:189
+msgid "End"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:221
+msgid "Horizontal Orientation"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:244
+#: elementor/controls/sections/parallax/class-parallax.php:282
+#: elementor/controls/sections/parallax/class-parallax.php:342
+#: elementor/controls/sections/parallax/class-parallax.php:379
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:502
+msgid "Offset"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:320
+msgid "Vertical Orientation"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:419
+msgid "Set z-index for the current layer, default 5"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:420
+msgid "5"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:431
+msgid "Set the layer opacity"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:445
+msgid "Parallax Settings"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:455
+msgid "Data"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:468
+msgid "Translate (X, Y)"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:477
+#: elementor/controls/sections/parallax/class-parallax.php:515
+#: elementor/controls/sections/parallax/class-parallax.php:566
+#: elementor/controls/sections/parallax/class-parallax.php:783
+msgid "X axis"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:490
+#: elementor/controls/sections/parallax/class-parallax.php:528
+#: elementor/controls/sections/parallax/class-parallax.php:579
+#: elementor/controls/sections/parallax/class-parallax.php:796
+msgid "Y axis"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:504
+msgid "Rotate (X, Y, Z)"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:540
+#: elementor/controls/sections/parallax/class-parallax.php:591
+msgid "Z axis"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:554
+msgid "Scale (X, Y, Z)"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:606
+msgid "Depth"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:608
+msgid "Set the layer Depth"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:625
+msgid "Wow"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:634
+msgid "Enable Wow"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:646
+msgid "Entrance Animation"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:663
+msgid "Animation Duration"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:683
+msgid "Animation Delay"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:704
+msgid ""
+"Responsive visibility will take effect only on preview or live page, and not "
+"while editing in Elementor."
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:713
+msgid "Hide On Tablet"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:717
+#: elementor/controls/sections/parallax/class-parallax.php:730
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:849
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:883
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:893
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:903
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:913
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:924
+#: elementor/widgets/ddoc-search/ddoc-search.php:46
+#: elementor/widgets/ddoc-search/ddoc-search.php:57
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:532
+msgid "Hide"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:718
+#: elementor/controls/sections/parallax/class-parallax.php:731
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:848
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:884
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:894
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:902
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:914
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:923
+#: elementor/widgets/ddoc-search/ddoc-search.php:45
+#: elementor/widgets/ddoc-search/ddoc-search.php:56
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:531
+msgid "Show"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:726
+msgid "Hide On Mobile"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:739
+#: elementor/widgets/advance-pricing/advance-pricing.php:94
+msgid "Items"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:755
+msgid "Enable Mouse Move"
+msgstr ""
+
+#: elementor/controls/sections/parallax/class-parallax.php:772
+msgid "Scalar (X, Y)"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:55
+msgid "CSS Transform"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:63
+#: elementor/widgets/subscriber/subscriber.php:148
+#: elementor/widgets/subscriber/subscriber.php:276
+#: elementor/widgets/subscriber/subscriber.php:307
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:505
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:630
+#: module/droit-header-footer-builder/includes/widgets-loader.php:122
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:158
+msgid "Enable"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:165
+#: elementor/controls/sections/transform/class-transform.php:276
+#: elementor/controls/sections/transform/class-transform.php:503
+#: elementor/controls/sections/transform/class-transform.php:614
+msgid "Mode"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:169
+#: elementor/controls/sections/transform/class-transform.php:280
+#: elementor/controls/sections/transform/class-transform.php:507
+#: elementor/controls/sections/transform/class-transform.php:618
+msgid "Compact"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:173
+#: elementor/controls/sections/transform/class-transform.php:284
+#: elementor/controls/sections/transform/class-transform.php:511
+#: elementor/controls/sections/transform/class-transform.php:622
+msgid "Loose"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:238
+#: elementor/controls/sections/transform/class-transform.php:576
+msgid "Rotate (Z)"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:303
+#: elementor/controls/sections/transform/class-transform.php:641
+msgid "Scale (X)"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:358
+#: elementor/controls/sections/transform/class-transform.php:696
+msgid "Skew"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:372
+#: elementor/controls/sections/transform/class-transform.php:710
+msgid "Skew X"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:394
+#: elementor/controls/sections/transform/class-transform.php:732
+msgid "Skew Y"
+msgstr ""
+
+#: elementor/controls/sections/transform/class-transform.php:420
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:401
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1097
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1269
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1505
+#: elementor/widgets/subscriber/subscriber-control.php:258
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1920
+#: elementor/widgets/video-popup/video-popup-control.php:239
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:143
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:192
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:341
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:509
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:707
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:948
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1070
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:190
+msgid "Hover"
+msgstr ""
+
+#: elementor/custom-css/custom-css.php:66
+#: elementor/custom-css/custom-css.php:82
+msgid "Custom CSS"
+msgstr ""
+
+#: elementor/custom-css/custom-css.php:74
+msgid "Add your own custom CSS here"
+msgstr ""
+
+#: elementor/custom-css/custom-css.php:93
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
+msgstr ""
+
+#: elementor/editor/popup-editor.php:70
+msgid "Droit Addons Templates"
+msgstr ""
+
+#: elementor/editor/popup-editor.php:196 elementor/editor/popup-editor.php:200
+msgid "Click to Edit icon for add content."
+msgstr ""
+
+#: elementor/editor/popup-editor.php:358
+msgid "Droit Editor Area"
+msgstr ""
+
+#: elementor/query/posts-grid.php:171 elementor/query/posts-query.php:171
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:445
+msgid "Manual Selection"
+msgstr ""
+
+#: elementor/query/posts-grid.php:585 elementor/query/posts-query.php:701
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:653
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1965
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2050
+msgid "Pagination"
+msgstr ""
+
+#: elementor/subscribe/providers/mailchimp.php:28
+#: elementor/subscribe/providers/mailchimp.php:119
+msgid "Please Enter MailChimp API Key."
+msgstr ""
+
+#: elementor/subscribe/providers/mailchimp.php:34
+msgid "Please select any MailChimp listed."
+msgstr ""
+
+#: elementor/subscribe/providers/mailchimp.php:169
+#: elementor/subscribe/providers/response.php:173
+msgid "Api Errors"
+msgstr ""
+
+#: elementor/subscribe/providers/mailchimp.php:172
+msgid "Enter API Keys"
+msgstr ""
+
+#: elementor/subscribe/providers/response.php:28
+#: elementor/subscribe/providers/response.php:123
+msgid "Please Enter getResponse API Key."
+msgstr ""
+
+#: elementor/subscribe/providers/response.php:35
+msgid "Please select any getResponse listed."
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing-module.php:18
+msgid "Pricing With Switch"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:66
+#: elementor/widgets/subscriber/subscriber-control.php:31
+#: elementor/widgets/subscriber/subscriber.php:64
+#: elementor/widgets/test/test.php:55
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:98
+msgid "Layout"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:73
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:32
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:30
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:32
+#: elementor/widgets/subscriber/subscriber-control.php:38
+#: elementor/widgets/subscriber/subscriber.php:71
+msgid "Preset"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:103
+#: elementor/widgets/advance-pricing/advance-pricing.php:204
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:595
+#: elementor/widgets/subscriber/subscriber.php:158
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:639
+msgid "Label"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:110
+#: elementor/widgets/subscriber/subscriber.php:165
+msgid "Require"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:120
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:244
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:128
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:880
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:36
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:64
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:66
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:145
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:458
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:130
+msgid "Setup Switch"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:166
+#: elementor/widgets/advance-pricing/advance-pricing.php:526
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:183
+#: elementor/widgets/ddoc-search/ddoc-search.php:90
+#: elementor/widgets/subscriber/subscriber-control.php:57
+msgid "Genaral"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:177
+#: elementor/widgets/advance-pricing/advance-pricing.php:537
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:755
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:733
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:812
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1006
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:799
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1501
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1625
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:129
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:246
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:117
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:215
+msgid "Not Active Label"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:226
+msgid "Active Label"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:236
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1134
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1213
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1355
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1542
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1553
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:883
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1074
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1127
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1167
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1219
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1270
+msgid "Spacing"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:267
+#: elementor/widgets/advance-pricing/advance-pricing.php:622
+msgid "Toggle"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:343
+#: elementor/widgets/advance-pricing/advance-pricing.php:372
+#: elementor/widgets/advance-pricing/advance-pricing.php:434
+#: elementor/widgets/advance-pricing/advance-pricing.php:481
+#: elementor/widgets/advance-pricing/advance-pricing.php:578
+#: elementor/widgets/advance-pricing/advance-pricing.php:686
+#: elementor/widgets/advance-pricing/advance-pricing.php:734
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:547
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:610
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:639
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:379
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:744
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:760
+#: elementor/widgets/ddoc-search/ddoc-search.php:99
+#: elementor/widgets/ddoc-search/ddoc-search.php:168
+#: elementor/widgets/subscriber/subscriber-control.php:121
+#: elementor/widgets/subscriber/subscriber-control.php:300
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:717
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1892
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1927
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2193
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2251
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:695
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:725
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:815
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1058
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1088
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1130
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:357
+msgid "Background"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:353
+#: elementor/widgets/advance-pricing/advance-pricing.php:587
+#: elementor/widgets/advance-pricing/advance-pricing.php:695
+#: elementor/widgets/advance-pricing/advance-pricing.php:743
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:234
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:556
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:619
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:354
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:791
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:981
+#: elementor/widgets/subscriber/subscriber-control.php:152
+#: elementor/widgets/subscriber/subscriber-control.php:408
+#: elementor/widgets/subscriber/subscriber-control.php:449
+#: elementor/widgets/subscriber/subscriber-control.php:568
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1902
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2203
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2261
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:134
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:193
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:314
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:484
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:542
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:659
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1023
+msgid "Border"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:364
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:203
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:296
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:593
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:409
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2213
+msgid "Active"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:398
+msgid "Toggler Switcher"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:407
+msgid "size"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:456
+#: elementor/widgets/advance-pricing/advance-pricing.php:503
+msgid "left"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:473
+#: elementor/widgets/advance-pricing/advance-pricing.php:716
+msgid "active"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:564
+msgid "Gap"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:653
+#: elementor/widgets/advance-pricing/advance-pricing.php:722
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:150
+#: elementor/widgets/subscriber/subscriber-control.php:272
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1209
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/advance-pricing/advance-pricing.php:674
+#: elementor/widgets/ddoc-search/ddoc-search.php:156
+msgid "Border-radius"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:39
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:37
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:39
+msgid "Design Layout"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:70
+msgid "Accordion"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:95
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:97
+msgid "Accordion Title"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:98
+msgid "Enter your title"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:107
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:108
+msgid "Set as Default"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:117
+msgid "After Icon"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:127
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:443
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:461
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:136
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:180
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:227
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:246
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:268
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:287
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:322
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:341
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:376
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:394
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:801
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:197
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:558
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:599
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:605
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1245
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1316
+#: elementor/widgets/video-docs/video-docs.php:122
+#: elementor/widgets/video-popup/video-popup-control.php:76
+#: elementor/widgets/video-popup/video-popup-control.php:121
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:43
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:50
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:67
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:143
+msgid "Accordions"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:148
+msgid "Accordion Title 1"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:149
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:154
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:159
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:164
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:153
+msgid "Accordion Title 2"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:158
+msgid "Accordion Title 3"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:163
+msgid "Accordion Title 4"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:276
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:116
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:551
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:846
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1074
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:49
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:115
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1193
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:356
+msgid "Icon After"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:378
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:494
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1845
+msgid "Font Size"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:404
+msgid "Margin Right"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:472
+msgid "Active Icon"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:657
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:772
+msgid "Box Border"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:720
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:799
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:791
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1872
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1952
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:126
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:185
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:330
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:382
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:500
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:558
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:609
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:824
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-control.php:742
+msgid "Box Space"
+msgstr ""
+
+#: elementor/widgets/advanced-accordion/advanced-accordion-module.php:18
+#: elementor/widgets/widgets-loader.php:38
+msgid "Advanced Accordion"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:49
+msgid "Tabs Layout"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:62
+msgid "Tabs Columns Direction"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:89
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:303
+msgid "Tab"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:118
+msgid "Enter Title"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:119
+msgid "Droit Addons"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:127
+#: elementor/widgets/video-popup/video-popup-control.php:67
+msgid "Media Type"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:233
+msgid "Tab Icon Spacing"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:254
+msgid "tab"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:260
+msgid "Wordpress"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:268
+msgid "Laravel"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:276
+msgid "Joomla"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:284
+msgid "Drupal"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:315
+msgid "Tab Content"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:331
+msgid "Tab Nav"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:427
+msgid "Tab Nav Item"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:441
+msgid "Item Horizontal Gap"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:467
+msgid "Item Vertical Gap"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:565
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:653
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:696
+msgid "Tab Icon Color"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:576
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:664
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:707
+msgid "Tab After Color"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:586
+msgid "Tab Border"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:605
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:674
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:717
+msgid "Tab Before Color"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-control.php:615
+msgid "Tab Content Alignment"
+msgstr ""
+
+#: elementor/widgets/advanced-tab/advanced-tab-module.php:18
+msgid "Advanced Tab ttt"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:79
+msgid "Layouts"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:86
+msgid "Block Layouts"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:110
+msgid "Title Length"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:113
+msgid "Keep empty for display full title"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:122
+msgid "Content Type"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:127
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:135
+msgid "Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:148
+msgid "Posts Per Row"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:163
+msgid "Rows Spacing"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:185
+msgid "Columns Spacing"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:204
+msgid "Meta Data"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:210
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:552
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1597
+msgid "Author"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:211
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:548
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1820
+#: module/droit-header-footer-builder/includes/posttype.php:93
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:212
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2008
+msgid "Time"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:213
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:2231
+msgid "Comments"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:214
+msgid "Date Modified"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:222
+msgid "Author Media Type"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:263
+msgid "Date Media Type"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:317
+msgid "Time Media Type"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:371
+msgid "Comments Media Type"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:432
+msgid "Query"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:443
+msgid "Recent Post"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:444
+msgid "Category Post"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:453
+#: module/droit-header-footer-builder/includes/posttype.php:246
+msgid "Posts"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:466
+msgid "Select Categories"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:480
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:483
+msgid "Sticky-posts ordering is visible on frontend only"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:491
+#: elementor/widgets/ddoc-list/ddoc-list.php:42
+msgid "Posts Per Page"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:493
+msgid "Enter Number"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:507
+msgid ""
+"This option is used to exclude number of initial posts from being display.)"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:516
+msgid "Exclude Current Post"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:518
+msgid "This option will remove the current post from the query."
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:529
+msgid "Empty Query Text"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:543
+#: elementor/widgets/video-docs/video-docs.php:87
+msgid "Order By"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:547
+msgid "Modified"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:549
+msgid "Rand"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:550
+msgid "ID"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:553
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:125
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1048
+msgid "Name"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:554
+msgid "Parent"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:555
+msgid "Menu Order"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:566
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:74
+#: elementor/widgets/video-docs/video-docs.php:75
+msgid "Order"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:570
+msgid "Ascending Order"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:571
+msgid "Descending Order"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:585
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:622
+msgid "Content Ordering"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:602
+#: elementor/widgets/subscriber/subscriber.php:181
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:646
+msgid "Id"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:610
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:654
+msgid "Re-order"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:664
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:290
+msgid "Enable Pagination"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:666
+msgid "Pagination is the process of dividing the posts into discrete pages"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:672
+msgid "Enable Ajax"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:683
+msgid "Page Limit"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:695
+msgid "Enable Pagination Next/Prev Strings"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:707
+msgid "Previous Page String"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:709
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1614
+msgid "Previous"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:720
+msgid "Next Page String"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:722
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1491
+msgid "Next"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:770
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:900
+msgid "Read More"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:777
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:97
+msgid "Read More Text"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:779
+msgid "Learn More »"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:788
+msgid "New Tab"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:839
+msgid "Show/Hide"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:858
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:890
+msgid "Show Image"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:910
+#: elementor/widgets/ddoc-search/ddoc-search.php:43
+msgid "Show Category"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:921
+msgid "Meta"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:942
+msgid "General"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1039
+msgid "Blog Content Box"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1180
+#: module/droit-header-footer-builder/includes/custom-walker.php:138
+msgid "Description"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1196
+msgid "Background Setting"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1247
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1737
+#: elementor/widgets/video-popup/video-popup-control.php:221
+msgid "Button"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1397
+msgid "Background(After)"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1421
+msgid "Thumbnail"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1452
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1373
+msgid "Space"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-control.php:1483
+#: elementor/widgets/ddoc-search/ddoc-search.php:204
+#: elementor/widgets/video-docs/video-docs.php:56 function.php:79
+msgid "Category"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid-module.php:21
+msgid "Post Grid"
+msgstr ""
+
+#: elementor/widgets/blogs-grid/blogs-grid.php:64
+msgid ""
+"The current query has no posts. Please make sure you have published items "
+"matching your query."
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:13
+#: elementor/widgets/widgets-loader.php:85
+msgid "Ddoc IconBox"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:42
+msgid "Number"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:57
+msgid "Title URL"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:72
+#: elementor/widgets/subscriber/subscriber.php:341
+msgid "Button Text"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:81
+msgid "Button URL"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:91
+msgid "Icon Type"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:108
+msgid "Content Section Style"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:116
+msgid "Number Style"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:124
+msgid "Number Color"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:142
+msgid "Title Style"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:169
+msgid "Content Style"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:177
+msgid "content Color"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:189
+msgid "Content Typography"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:205
+msgid "Margin Bottom"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:222
+msgid "Icon Background Color"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:233
+msgid "Button Color"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:243
+msgid "Button Hover Color"
+msgstr ""
+
+#: elementor/widgets/ddoc-iconbox/ddoc-iconbox.php:254
+#: elementor/widgets/subscriber/subscriber-control.php:248
+msgid "Button Typography"
+msgstr ""
+
+#: elementor/widgets/ddoc-list/ddoc-list.php:13
+msgid "Doc List (ddoc)"
+msgstr ""
+
+#: elementor/widgets/ddoc-list/ddoc-list.php:37
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:37
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:37
+#: elementor/widgets/ddoc-search/ddoc-search.php:37
+msgid "Search Settings"
+msgstr ""
+
+#: elementor/widgets/ddoc-list/ddoc-list.php:97
+msgid "topics"
+msgstr ""
+
+#: elementor/widgets/ddoc-list/ddoc-list.php:110
+msgid "Learn More"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:13
+msgid "Doc Login Form (ddoc)"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:42
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:42
+#: elementor/widgets/ddoc-search/ddoc-search.php:64
+msgid "Suggestions Keywords"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:45
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:45
+#: elementor/widgets/ddoc-search/ddoc-search.php:67
+msgid "how to, install, plugin, ajax, elemenor"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:60
+msgid "Enter User Name"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:63
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:73
+msgid "Enter password"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:69
+msgid "Remember me"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:74
+msgid "Forgot your password ?"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:81
+msgid "Login"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:87
+msgid "Or Login with"
+msgstr ""
+
+#: elementor/widgets/ddoc-login-form/ddoc-login-form.php:93
+#, php-format
+msgid "You already Login! <a href='%s'>Logout From Here</a>"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:13
+msgid "Doc Registration Form (ddoc)"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:58
+msgid "Registration not enable"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:64
+msgid "Full Name"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:67
+msgid "User Name"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:70
+msgid "Enter email address"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:79
+msgid "I agree to terms and services"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:86
+msgid "Registration"
+msgstr ""
+
+#: elementor/widgets/ddoc-register-form/ddoc-register-form.php:93
+msgid "Or Register with"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:13
+msgid "Doc Search (ddoc)"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:54
+msgid "Show Suggestions"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:120
+msgid "Category Suggation"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:135
+msgid "Category Color"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:145
+msgid "Category Item Padding"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:198
+msgid "Search..."
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:209
+#: module/droit-header-footer-builder/includes/posttype.php:240
+msgid "Search"
+msgstr ""
+
+#: elementor/widgets/ddoc-search/ddoc-search.php:215
+msgid "Popular :"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:13
+#: elementor/widgets/widgets-loader.php:98
+msgid "Ddoc Tab"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:37
+msgid "Filter Options"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:44
+msgid "Show Section Count"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:45
+msgid ""
+"The number of sections to show under every documentation tab. Leave empty or "
+"give value -1 to show all sections."
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:54
+msgid "Main Doc Excerpt"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:55
+msgid ""
+"Excerpt word limit of main documentation. If the excerpt got empty, this "
+"will get from the post content."
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:64
+msgid "Doc Section Excerpt"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:65
+msgid ""
+"Excerpt word limit of the documentation sections. If the excerpt got empty, "
+"this will get from the post content."
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:87
+msgid "Tab Title First Word"
+msgstr ""
+
+#: elementor/widgets/ddoc-tab/ddoc-tab.php:88
+msgid "Show the first word of the doc in Tab Title."
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:72
+msgid "Checkbox Style"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:87
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:79
+msgid "Button Style"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:102
+msgid "Input Style"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:170
+msgid "Content Alignment"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:227
+#: elementor/widgets/subscriber/subscriber-control.php:265
+msgid "Button style"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:319
+#: elementor/widgets/subscriber/subscriber-control.php:437
+msgid "Paceholder Color"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:360
+msgid "input Col Width"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:385
+msgid "input Col Margin"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:419
+msgid "Focus"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:474
+msgid "Checkbox Alignment"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-control.php:519
+msgid "Checkbox Width"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber-module.php:16
+#: elementor/widgets/widgets-loader.php:79
+msgid "Subscriber"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:76
+msgid "Block"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:85
+msgid "Form Colum"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:103
+msgid "Form Colum Gap"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:123
+#, php-format
+msgid ""
+"Hello %2$s, At first connect with API. Please click on the link for %1$s."
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:140
+msgid "Fields"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:174
+msgid "Placeholder"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:189
+msgid "Setup Fields"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:261
+msgid "Integration with"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:267
+msgid "Mailchimp"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:286
+#: elementor/widgets/subscriber/subscriber.php:317
+msgid "Select List"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:298
+msgid "Get Response"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:335
+msgid "Form settings"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:343
+msgid "Check Now"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:350
+msgid "Success message"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:352
+msgid "Successfully listed."
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:359
+#: elementor/widgets/subscriber/subscriber.php:381
+msgid "Error message"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:361
+msgid "Please enter correct info."
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:370
+msgid "Confirm Checkbox"
+msgstr ""
+
+#: elementor/widgets/subscriber/subscriber.php:383
+msgid "Agree with our terms & conditions."
+msgstr ""
+
+#: elementor/widgets/test/test.php:15 elementor/widgets/widgets-loader.php:92
+msgid "Test"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:26
+msgid "Testmonial Pro"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:90
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:522
+msgid "Rating"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:104
+msgid "Author Logo"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:127
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:128
+msgid "Enter Name"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:135
+msgid "Designation"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:137
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:138
+msgid "Enter Designation"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:147
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:148
+msgid "Enter Content"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:155
+msgid "Client Image"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:167
+msgid "Testimonial"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:173
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:179
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:185
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:191
+msgid "Droitthemes"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:174
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:180
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:186
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:192
+msgid "CTO, Droitthemes"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:175
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:181
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:187
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:193
+msgid ""
+" “Droitadons presents your services with flexible, convenient and "
+"multipurpose layouts. You can select your favorite.“"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:209
+msgid "Settings"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:216
+msgid "Perpage"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:239
+#: elementor/widgets/video-popup/video-popup-control.php:180
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:249
+msgid "Delay [autoplay]"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:261
+msgid "Enable Vertical"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:270
+msgid "Enable Loop"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:280
+msgid "Centered"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:300
+msgid "Pagi Type"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:315
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:414
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:129
+msgid "Space Between"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:326
+msgid "Effect"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:342
+msgid "Enable Slide Control"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:352
+msgid "Left Icon"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:365
+msgid "Right Icon"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:378
+msgid "Responsive"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:392
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:217
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:93
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:187
+msgid "Max Width"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:403
+msgid "Slides Per View"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:437
+msgid "Disabled Slide Control"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:446
+msgid "Disabled Pagination"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:496
+msgid "MouseOver Settings"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:529
+msgid "Show Title"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:542
+msgid "Rating Scale"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:574
+msgid "Unmarked Style"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:708
+msgctxt "droit-addons-pro"
+msgid "General"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:831
+msgctxt "droit-addons-pro"
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:876
+msgctxt "droit-addons-pro"
+msgid "Client Info"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:909
+msgid "Images"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:917
+msgid "Image Size"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:934
+msgid "Image Position"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:957
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:981
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1005
+msgid "Image Spacing"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1160
+msgid "Stars"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1300
+msgid "Unmarked Color"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1361
+msgid "Icon Position"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1466
+msgid "Navigation"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1775
+msgid "Horizontal Position"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1804
+msgid "Vartical Position"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1909
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1935
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:103
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:150
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:161
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:197
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:1978
+msgid "absolute"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2059
+msgid "Pagination Alignment"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2085
+msgid "Horizontal Spacing"
+msgstr ""
+
+#: elementor/widgets/testimonial-pro/testimonial-pro.php:2111
+msgid "Vartical Spacing"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:14
+msgid "Video Docs bbbb"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:50
+msgid "Filter"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:57
+msgid "Display blog by categories"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:67
+msgid "Show Posts Count"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:104
+msgid "Title Word Length"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:113
+msgid "Exclude Blog"
+msgstr ""
+
+#: elementor/widgets/video-docs/video-docs.php:114
+msgid ""
+"Enter the portfolio post IDs to hide/exclude. Input the multiple ID with "
+"comma separated"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:30
+msgid "Button Content"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:43
+msgid "Video"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:55
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:57
+msgid "Enter Text"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:60
+msgid "This text display in button section. NB: Keep empty for hide."
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:159
+msgid "YouTube"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:160
+msgid "Vimeo"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:168
+msgid "Video URL"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:170
+msgid "https://www.youtube.com/watch?v=XHOmBV4js_E"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:204
+msgid "Player Controls"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:472
+msgid "SVG Color"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-control.php:495
+msgid "Advanced Hover"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup-module.php:21
+#: elementor/widgets/widgets-loader.php:44
+msgid "Video Popup"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:50
+msgid "Advanced Pricing"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:57
+msgid "Advanced Tab"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:64
+msgid "Blogs Grid"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:72
+msgid "Testimonial Pro"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:104
+msgid "Ddoc Search"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:110
+msgid "Ddoc Login Form"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:116
+msgid "Ddoc Register Form"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:122
+msgid "Ddoc List"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:129
+msgid "Video Docs ttt"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:278
+msgid "Theme Essential"
+msgstr ""
+
+#: elementor/widgets/widgets-loader.php:286
+msgid "Theme Essential Free"
+msgstr ""
+
+#: function.php:60
+msgid "Nothing found with this search.."
+msgstr ""
+
+#: function.php:69
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: function.php:70
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: function.php:71
+msgid "Search Categories"
+msgstr ""
+
+#: function.php:72
+msgid "All Categories"
+msgstr ""
+
+#: function.php:73
+msgid "Parent Category"
+msgstr ""
+
+#: function.php:74
+msgid "Parent Category:"
+msgstr ""
+
+#: function.php:75
+msgid "Edit Category"
+msgstr ""
+
+#: function.php:76
+msgid "Update Category"
+msgstr ""
+
+#: function.php:77
+msgid "Add New Category"
+msgstr ""
+
+#: function.php:78
+msgid "New Category Name"
+msgstr ""
+
+#: function.php:102
+msgid "Categories"
+msgstr ""
+
+#: function.php:125
+msgid "Please enter valid user name"
+msgstr ""
+
+#: function.php:127
+msgid "User Not Exist"
+msgstr ""
+
+#: function.php:131
+msgid "Passward not valid"
+msgstr ""
+
+#: function.php:147
+msgid "Login Successfull"
+msgstr ""
+
+#: function.php:150
+msgid "User name or password dose not match"
+msgstr ""
+
+#: function.php:164
+msgid "Password is required"
+msgstr ""
+
+#: function.php:167
+msgid "User Name Is Required"
+msgstr ""
+
+#: function.php:170
+msgid "Email Is Required"
+msgstr ""
+
+#: function.php:173
+msgid "Email Not Valid"
+msgstr ""
+
+#: function.php:190
+msgid "Registration Success"
+msgstr ""
+
+#: module/droit-header-footer-builder/controller.php:39
+#, php-format
+msgid ""
+"<b>Droit Header</b> requires PHP version %1$s+, which is currently NOT "
+"RUNNING on this server."
+msgstr ""
+
+#: module/droit-header-footer-builder/controller.php:90
+#, php-format
+msgid ""
+"The %1$sElementor - Header Footer and Blocks%2$s plugin requires "
+"%1$sElementor%2$s plugin installed & activated."
+msgstr ""
+
+#: module/droit-header-footer-builder/controller.php:95
+msgid "Activate Elementor"
+msgstr ""
+
+#: module/droit-header-footer-builder/controller.php:98
+msgid "Install Elementor"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/common.php:38
+msgid "Header"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/common.php:39
+msgid "Footer"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/common.php:40
+msgid "Banner"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/common.php:41
+msgid "404 Pages"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: module/droit-header-footer-builder/includes/custom-walker.php:47
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: module/droit-header-footer-builder/includes/custom-walker.php:51
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:92
+msgid "Edit"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:101
+msgid "URL"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:108
+msgid "Navigation Label"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:114
+msgid "Title Attribute"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:121
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:126
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:132
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:140
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:149
+msgid "Icon Class"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:160
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:173
+msgid "Remove"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/custom-walker.php:174
+msgid "Cancel"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/load.php:91
+msgid "Create Template"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/load.php:92
+msgid "Droit Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:46
+#: module/droit-header-footer-builder/includes/posttype.php:47
+#: module/droit-header-footer-builder/includes/posttype.php:48
+#: module/droit-header-footer-builder/includes/posttype.php:49
+msgid "Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:50
+msgid "Add New"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:51
+msgid "Add New Header, Footer or Block"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:52
+msgid "New Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:53
+msgid "Edit Header Footer & Blocks Template"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:54
+msgid "View Header Footer & Blocks Template"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:55
+msgid "All Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:56
+msgid "Search Header Footer & Blocks Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:57
+msgid "Parent Header Footer & Blocks Templates:"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:58
+msgid "No Header Footer & Blocks Templates found."
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:59
+msgid "No Header Footer & Blocks Templates found in Trash."
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:90
+msgid "Templates type"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:91
+msgid "Shortcode"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:92
+msgid "Display On"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:179
+msgid "Droit Template Settings"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:231
+msgid "Select"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:232
+msgid "Entire Website"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:233
+msgid "Front Page"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:234
+msgid "Blog Page"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:235
+msgid "All Pages"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:236
+msgid "All Single Post"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:237
+msgid "All Archives"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:238
+msgid "All Category"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:239
+msgid "404"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:242
+msgid "Pages"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:250
+msgid "Custom Postype"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:259
+msgid "All"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:260
+msgid "Logged In"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:261
+msgid "Logged Out"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:263
+msgid "Advanced"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:293
+msgid "Droit Template"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:322
+msgid "Header Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/posttype.php:343
+msgid "Footer Templates"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/views/posttype-settings-meta.php:4
+msgid "Type of Template"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/views/posttype-settings-meta.php:26
+msgid "Disply on"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets-loader.php:69
+msgid "Droit Header & Footer"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets-loader.php:114
+msgid "Sticky Section"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:16
+msgid "Back to Top"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:63
+msgid "Icon Attributes"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:87
+msgid "Button Normal & Hover Style"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:203
+msgid "Additional Options"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:222
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:330
+msgid "Icon Size"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/back-to-top.php:292
+msgid "Back to Top Icon Position"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:17
+msgid "Hover Thumbnails Mega Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:62
+msgid "Mega Menu Items"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:73
+msgid "Select Menu Item"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:83
+msgid "Thumbnails"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:94
+msgid "Add Menu Item"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:121
+msgid "Menu Items"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/hover-thumbnails-mega-menu.php:177
+msgid "Active Text Color"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:15
+msgid "Navigation Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:64
+msgid "Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:74
+msgid "Select Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:80
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your "
+"menus."
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:88
+#, php-format
+msgid ""
+"<strong>There are no menus in your site.</strong><br>Go to the <a href=\"%s"
+"\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:104
+msgid "Expanded"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:105
+msgid "Flyout"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:113
+msgid "Submenu Icon"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:117
+msgid "Arrows"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:118
+msgid "Plus Sign"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:156
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:159
+msgid "Disable"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:171
+msgid "Hamburger Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:178
+msgid "Hamburger Menu Icon"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:192
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:102
+msgid "Close Icon"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:205
+msgid "Mobile Logo"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:261
+msgid "Menu Item"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:322
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:374
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:492
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:550
+msgid "Text Shadow"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:402
+msgid "Item Margin"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:414
+msgid "Item Padding"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:430
+msgid "Sticky Menu Item"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:440
+msgid "Sticky Menu Item Style"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:569
+msgid "Sticky Menubar Style"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:620
+msgid "Submenu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:627
+msgid "Submenu Item Style"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:742
+msgid "Submenu Background"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:780
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1105
+msgid "Submenu Margin"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:791
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1116
+msgid "Submenu Padding"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:835
+msgid "Offcanvas Menu"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:842
+msgid "Hamburger Icon Size"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:865
+msgid "Offcanvas Menu Item Style"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:914
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:954
+msgid "Menu Item Color"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:924
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:964
+msgid "Menu Item Background"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:935
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:974
+msgid "Hamburger Icon Color"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:991
+msgid "Offcanvas Submenu Style"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/nav-menu.php:1143
+msgid "Offcanvas Menu Wrapper"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:15
+msgid "Search Bar"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:60
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:90
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:141
+msgid "Search Icon"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:83
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:278
+msgid "Overlay Search Form"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:114
+msgid "Placeholder Text"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:287
+msgid "Placeholder Typography"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:295
+msgid "Placeholder Color"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:306
+msgid "Search Icon Color"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/search-bar.php:318
+msgid "Close Icon Color"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:13
+msgid "Site Logo"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:58
+msgid "Logo"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:65
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:159
+msgid "Main Logo"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:79
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:173
+msgid "Sticky Logo"
+msgstr ""
+
+#: module/droit-header-footer-builder/includes/widgets/site-logo.php:152
+msgid "Retina Logo"
+msgstr ""
+
+#: plugin.php:39
+#, php-format
+msgid ""
+"<b>Essential Plugin</b> requires PHP version %1$s+, which is currently NOT "
+"RUNNING on this server."
+msgstr ""
+
+#: plugin.php:85
+msgid "Activate Droit Elementor Addons"
+msgstr ""
+
+#: plugin.php:88 plugin.php:96
+msgid "<strong>"
+msgstr ""
+
+#: plugin.php:94
+msgid "Install Droit Elementor Addons"
+msgstr ""
+
+#: plugin.php:166
+msgid "Thanks for installing Droit Essential!"
+msgstr ""
+
+#: posttype/custom-postype.php:29 posttype/custom-postype.php:82
+msgid "Add New "
+msgstr ""
+
+#: posttype/custom-postype.php:30 posttype/custom-postype.php:83
+msgid "Edit "
+msgstr ""
+
+#: posttype/custom-postype.php:31 posttype/custom-postype.php:81
+msgid "New "
+msgstr ""
+
+#: posttype/custom-postype.php:32
+msgid "View "
+msgstr ""
+
+#: posttype/custom-postype.php:33 posttype/custom-postype.php:86
+msgid "Search "
+msgstr ""
+
+#: posttype/custom-postype.php:34 posttype/custom-postype.php:35
+msgid "No "
+msgstr ""
+
+#: posttype/custom-postype.php:36 posttype/custom-postype.php:89
+#: posttype/custom-postype.php:91
+msgid "Parent "
+msgstr ""
+
+#: posttype/custom-postype.php:84
+msgid "Update "
+msgstr ""
+
+#: posttype/custom-postype.php:85
+msgid "Add or remove "
+msgstr ""
+
+#: posttype/custom-postype.php:87
+msgid "Popular "
+msgstr ""
+
+#: posttype/custom-postype.php:88
+msgid "All "
+msgstr ""
+
+#: posttype/custom-postype.php:90
+msgid "Choose from the most used "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ddoc Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://droitthemes.com/droit-elementor-addons/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Droit Elementor Addons is a bundle of super useful widgets. This Elementor "
+"compatible plugin is easy to use and you can customize different features as "
+"you like. Just plug and play."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DroitThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://droitthemes.com/"
+msgstr ""

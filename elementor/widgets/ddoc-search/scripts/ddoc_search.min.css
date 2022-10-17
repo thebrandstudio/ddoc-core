@@ -1,0 +1,129 @@
+
+.docoment {
+    max-width: 660px;
+    margin:  0 auto;
+}
+.docoment .input-group{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search_form_two .docoment .input-group{
+	background: transparent;
+    border-radius: 0px;
+    padding: 0px;
+}
+.search_form_two .docoment .input-group input{
+	background: #FFFFFF;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    border: 1px solid #E1E1E1;
+    margin-right: 15px; 
+}
+.search_form_two .docoment .input-group input::placeholder{
+	color:#9F9F9F;
+}
+.search_form_two .docoment .input-group .ddoc-doc-ajax-search{
+	padding: 27px;
+}
+.search-suggation {
+    font-size: 15px;
+    font-weight: 500;
+    color: #929AB2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 10px;
+}
+.search-suggation span{
+    display: inline-block;
+    cursor: pointer;
+}
+.docoment .input-group input{
+    border: 0px;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#677789;
+    padding: 10px 30px;
+    box-shadow: none;
+    font-family: "Roboto", Sans-serif;
+    width: auto;
+    flex: 1;
+}
+.docoment .input-group .category-select{
+    border: 0px;
+    margin-left: 0 !important;
+    width: max-content;
+    flex:0 0 auto;
+    background: transparent;
+    font-size: 16px;
+    color: #677789;
+    font-weight: 500;
+    line-height: 44px;
+    font-family: "Roboto", Sans-serif;
+    height: auto;
+    box-shadow: none;
+    padding-left: 0;
+}
+.docoment .input-group .category-select:before{
+    content: "";
+    width: 1px;
+    height: 20px;
+    background: #677789;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-top: -1px;
+}
+.docoment .input-group .category-select:after{
+    border-bottom: 1px solid #677789;
+    border-right: 1px solid #677789;
+    width: 7px;
+    height: 7px;
+    right: 18px;
+    margin-top: -5px;
+}
+.docoment .input-group .ddoc-doc-ajax-search{
+    background: #2579FF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 32px;
+    color: #fff;
+    margin-left: 0 !important;
+    font-family: "Roboto", Sans-serif;
+    border: 0px;
+    border-radius: 5px !important;
+}
+.ddoc-live-search{
+    top: 100%;
+    box-shadow: 0 9px 35px rgba(0, 0, 0, 0.05);
+}
+.ddoc-live-search .list-group-item{
+ border: 0px;
+ color: #677789;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:576px){
+	.docoment .input-group input{
+    	flex: 100%;
+        width:100%;
+        border-bottom:1px solid rgba(103,119, 137, 0.2);
+        margin-bottom:5px;
+        padding-left: 15px;
+    }
+    .docoment .input-group .category-select{
+    	flex:1;
+        padding-left: 15px;
+    }
+    .docoment .input-group .category-select:before{
+    	display: none;
+    }
+}

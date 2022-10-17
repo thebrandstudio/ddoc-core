@@ -1,0 +1,128 @@
+.dl_accordion_style_12 {
+    background: transparent;
+    padding: 0px;
+    border-color: #31383b;
+}
+
+.dl_accordion_style_12 .dl_accordion_title {
+    width: 100%;
+}
+
+.dl_accordion_style_12 .dl_accordion_title:before {
+    display: none;
+}
+
+.dl_accordion_style_12 .dl_accordion_panel {
+    padding-top: 0px;
+    padding-bottom: 38px;
+    margin-top: -10px;
+}
+
+.dl_accordion_style_12 .dl_accordion_panel .accordion_btn {
+    margin-top: 28px;
+}
+
+.dl-pro-active {
+    background: transparent;
+}
+.dl_accordion_item{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #DCDCDC;
+    padding: 20px 14px 20px 22px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.dl_accordion_item .elementor-widget-container p{
+    margin-top: 0px;
+}
+
+.dl_accordion_item.dl_accordion_style_02{
+    border-width: 0px 0px 1px 0px;
+    border-color: #DCDCDC;
+}
+.dl_accordion_item.is-active{
+    background: #F3F7FA;
+    border-color: #F3F7FA;
+}
+
+.dl_accordion_item .dl_accordion_item_title{
+    flex: 1;
+}
+
+.dl_accordion_item .dl_accordion_panel {
+    display: none;
+}
+
+.dl_accordion_item.dl_accordion_style_12 {
+    padding: 0;
+}
+
+.accordion_btn {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.accordion_btn:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+    z-index: 0;
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    white-space: nowrap;
+    text-align: left;
+}
+
+.accordion_btn i {
+    display: inline-block;
+    transition: margin 0.4s linear;
+}
+
+.accordion_btn svg {
+    transition: margin 0.4s linear;
+}
+
+.accordion_btn:hover:before {
+    width: 100%;
+}
+
+.accordion_btn:hover i {
+    margin-right: 10px;
+}
+
+.accordion_btn:hover i::before {
+    transition: color 0.9s;
+}
+
+.droit_rotate_title {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    writing-mode: vertical-rl;
+}
+.droit__pro_accordion .dl_accordion_title_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.droit__pro_accordion .dl_accordion_title_icon .dl_accordion_active_icon {
+    display: none;
+}
+.droit__pro_accordion .is-active .dl_accordion_title_icon .dl_accordion_normal_icon  {
+    display: none;
+}
+.droit__pro_accordion .is-active .dl_accordion_title_icon .dl_accordion_active_icon   {
+    display: block;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+
+

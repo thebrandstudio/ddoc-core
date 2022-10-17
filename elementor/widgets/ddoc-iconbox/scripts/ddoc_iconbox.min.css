@@ -1,0 +1,29 @@
+/*======================   start online_document_wrap    =======================*/
+.online_document_item .doc_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF1C7;
+}
+
+.online_document_item .doc_title {
+    color: #222222;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 13px;
+}
+
+.online_document_item .doc_details {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
