@@ -183,35 +183,35 @@ class DRTH_ESS_Ddoc_Search extends Widget_Base {
 		);
         $this-> end_controls_section();
     }
-    
+
 
 	protected function render() {
 		$settings = $this->get_settings();
         $form_wrapper_class = ($settings['show_category_filter'] != 'yes') ? 'input-group position-relative inner-search-button' : 'input-group position-relative';
 
    ?>
-  
+
  <!-- Start dt_our_live_document_wrap-->
  <div class="docoment search">
         <div class="form-content">
           <div class="<?php echo  esc_attr( $form_wrapper_class ); ?>">
             <input type="text" class="form-control ddoc-keyworkd-imports" placeholder="<?php esc_attr_e('Search...', 'ddoc-core'); ?>" aria-label="Search...">
                 <div class="ddoc-live-search position-absolute bg-warning d-none list-group">
-                   
+
                 </div>
-              <?php if($settings['show_category_filter'] == 'yes') : ?>  
+              <?php if($settings['show_category_filter'] == 'yes') : ?>
                <select class="form-select category-select" aria-label="select">
                     <option selected><?php esc_html_e('Category', 'ddoc-core'); ?></option>
                     <?php echo get_doc_category_in_options(); ?>
                 </select>
               <?php endif; ?>
-              <?php if($settings['show_category_filter'] == 'yes') : ?> 
-                <button type="button" class="ddoc-doc-ajax-search"><?php esc_html_e('Search', 'ddoc-core'); ?></button>
+              <?php if($settings['show_category_filter'] == 'yes') : ?>
+                <button type="button" class="ddoc-doc-ajax-search"><?php esc_html_e('Buscar', 'ddoc-core'); ?></button>
                 <?php  else : ?>
                     <button type="button" class="ddoc-doc-ajax-search"><i class="fa fa-search"></i></button>
                 <?php endif; ?>
           </div>
-          <?php if($settings['show_suggestions'] == 'yes') : ?>  
+          <?php if($settings['show_suggestions'] == 'yes') : ?>
             <div class="search-suggation text-center"><?php esc_html_e( 'Popular :', 'ddoc-core' ); ?>
                 <?php $get_keywords = $settings['add_popular_keywords'];
                     $make_arr = explode(',', $get_keywords);
@@ -224,6 +224,6 @@ class DRTH_ESS_Ddoc_Search extends Widget_Base {
         </div>
     </div>
     <!-- end dt_our_live_document_wrap -->
-<?php 
+<?php
  }
 }
