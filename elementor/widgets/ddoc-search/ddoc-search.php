@@ -216,7 +216,7 @@ class DRTH_ESS_Ddoc_Search extends Widget_Base {
                 <?php $get_keywords = $settings['add_popular_keywords'];
                     $make_arr = explode(',', $get_keywords);
                     foreach($make_arr as $keywords) {
-                        echo '<span>'. $keywords.'</span>';
+                        echo '<span style="margin: 0px 4px 0px 4px;">'. $keywords.'</span>';
                     }
                 ?>
                 </div>
