@@ -201,7 +201,7 @@ class DRTH_ESS_Ddoc_Search extends Widget_Base {
                 </div>
               <?php if($settings['show_category_filter'] == 'yes') : ?>
                <select class="form-select category-select" aria-label="select">
-                    <option selected><?php esc_html_e('Category', 'ddoc-core'); ?></option>
+                    <option selected><?php esc_html_e('Categoría', 'ddoc-core'); ?></option>
                     <?php echo get_doc_category_in_options(); ?>
                 </select>
               <?php endif; ?>
