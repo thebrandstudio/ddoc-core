@@ -188,6 +188,8 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
                                             <?php endif; ?>
 
+																						<?php the_field('descripcion'); ?>
+
 
                                             <?php
                                             if( strlen(trim($main_doc['doc']->post_excerpt)) != 0 ) {
