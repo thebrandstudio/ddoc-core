@@ -183,51 +183,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 									                                            </a>
 									                                        </div>
 									                                    </div>
-									                                    <div class="col-lg-8 col-md-12 col-12">
-									                                        <div class="row tab_right_content">
-									                                            <?php
-									                                                foreach ($main_doc['sections'] as $section) :
-									                                                    $icon_bg_color = get_post_meta( $section->ID, 'tab_icon_background', true );
-									                                                ?>
-									                                                <div class="col-md-6 col-sm-12 col-12">
-									                                                    <div class="dt_knowledge_item">
-									                                                        <div class="media">
-									                                                            <div class="media-left">
-									                                                                <?php  $iconclass = 'img_wrap post-icon-'.$section->ID;  ?>
-
-									                                                                <div class="<?php echo esc_attr( $iconclass ); ?>" <?php if(!empty( $icon_bg_color )){ ?> style="background-color: <?php echo esc_attr($icon_bg_color) ?>" <?php } ?>>
-									                                                                   <?php
-									                                                                    if ( $this->get_ddoc_icon($section->ID) != '' ) {
-									                                                                        echo $this->get_ddoc_icon($section->ID);
-									                                                                    } else {
-									                                                                        $default_icon = plugins_url('image/doc-sec.webp', __FILE__);
-									                                                                        echo "<img src='$default_icon' alt='{$section->post_title}'>";
-									                                                                    }
-									                                                                    ?>
-									                                                                </div>
-									                                                            </div>
-									                                                            <div class="media-body">
-									                                                                <a href="<?php echo get_permalink($section->ID); ?>">
-									                                                                    <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
-									                                                                </a>
-									                                                                <p>
-									                                                                <?php
-									                                                                if( strlen(trim($section->post_excerpt)) != 0 ) {
-									                                                                    echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
-									                                                                } {
-									                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
-									                                                                }
-									                                                                ?>
-									                                                                </p>
-									                                                            </div>
-									                                                        </div>
-									                                                    </div>
-									                                                </div>
-									                                                <?php
-									                                            endforeach;
-									                                            ?>
-									                                        </div>
-									                                    </div>
 									                                </div>
 									                            </div>
 									                            <?php
