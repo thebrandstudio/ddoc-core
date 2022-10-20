@@ -137,21 +137,18 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 
 
 
-
-									                            <div class="tab-pane fade show <?php echo esc_attr($active); ?>" id="doc-<?php echo esc_attr($doc['doc']->ID) ?>">
-									                                <div class="row">
-									                                    <div class=" col-lg col-md-12 col-12">
-									                                        <div class="tab_left_content">
+									                        <?php
+									                        foreach ($docs as $i => $main_doc) :
+									                            $active = ($i == 0) ? 'active' : '';
+									                            ?>
 									                                            <?php if ( $this->get_ddoc_icon($doc['doc']->ID) != '') : ?>
 									                                                <div class="img post-icon-<?php echo esc_attr($doc['doc']->ID); ?>">
 									                                                    <?php echo $this->get_ddoc_icon($doc['doc']->ID);  ?>
 									                                                </div>
 									                                            <?php endif; ?>
-									                                        </div>
-									                                    </div>
-									                                </div>
-									                            </div>
-
+									                            <?php
+									                        endforeach;
+									                        ?>
 
 
 
