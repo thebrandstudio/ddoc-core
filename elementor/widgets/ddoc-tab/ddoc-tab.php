@@ -190,7 +190,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php endif; ?>
 
 																						<?php
-																						$shortcode = get_post_meta($post->ID,'descripcion',true);
+																						$shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
 																						echo do_shortcode($shortcode);
 																						?>
 
