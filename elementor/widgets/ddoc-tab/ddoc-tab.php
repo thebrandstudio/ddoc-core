@@ -132,14 +132,137 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba<?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
 
 
-																			<?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
-																					<div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
-																							<?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
-																					</div>
-																			<?php endif; ?>
-																			<?php if ( !empty($main_doc['doc']->post_title) ) : ?>
-																					<h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
-																			<?php endif; ?>
+
+
+
+
+																			<div class="tab-content tab_content">
+									                        <?php
+									                        if ( $parent_docs ) {
+									                            foreach ($parent_docs as $root) {
+									                                $sections = get_children( array(
+									                                    'post_parent'    => $root->ID,
+									                                    'post_type'      => 'docs',
+									                                    'post_status'    => 'publish',
+									                                    'orderby'        => 'menu_order',
+									                                    'order'          => 'ASC',
+									                                    'posts_per_page' => !empty($settings['show_section_count']) ? $settings['show_section_count'] : -1,
+									                                ) );
+									                                $docs[] = array(
+									                                    'doc'      => $root,
+									                                    'sections' => $sections
+									                                );
+									                            }
+									                        }
+
+									                        foreach ($docs as $i => $main_doc) :
+									                            $active = ($i == 0) ? 'active' : '';
+									                            ?>
+									                            <div class="tab-pane fade show <?php echo esc_attr($active); ?>" id="doc-<?php echo esc_attr($main_doc['doc']->ID) ?>">
+									                                <div class="row">
+									                                    <div class=" col-lg col-md-12 col-12">
+									                                        <div class="tab_left_content">
+									                                            <?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
+									                                                <div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
+									                                                    <?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
+									                                                </div>
+									                                            <?php endif; ?>
+									                                            <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
+									                                                <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
+									                                            <?php endif; ?>
+
+									                                            <?php
+									                                            if( strlen(trim($main_doc['doc']->post_excerpt)) != 0 ) {
+									                                                echo wpautop( wp_trim_words($main_doc['doc']->post_excerpt, $settings['main_doc_excerpt'], '') );
+									                                            } {
+									                                                echo wpautop( wp_trim_words($main_doc['doc']->post_content, $settings['main_doc_excerpt'], '') );
+									                                            }
+									                                            ?>
+									                                            <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
+									                                                <?php echo esc_html($settings['read_more']); ?> <i class="fas fa-arrow-right"></i>
+									                                            </a>
+									                                        </div>
+									                                    </div>
+									                                    <div class="col-lg-8 col-md-12 col-12">
+									                                        <div class="row tab_right_content">
+									                                            <?php
+									                                                foreach ($main_doc['sections'] as $section) :
+									                                                    $icon_bg_color = get_post_meta( $section->ID, 'tab_icon_background', true );
+									                                                ?>
+									                                                <div class="col-md-6 col-sm-12 col-12">
+									                                                    <div class="dt_knowledge_item">
+									                                                        <div class="media">
+									                                                            <div class="media-left">
+									                                                                <?php  $iconclass = 'img_wrap post-icon-'.$section->ID;  ?>
+
+									                                                                <div class="<?php echo esc_attr( $iconclass ); ?>" <?php if(!empty( $icon_bg_color )){ ?> style="background-color: <?php echo esc_attr($icon_bg_color) ?>" <?php } ?>>
+									                                                                   <?php
+									                                                                    if ( $this->get_ddoc_icon($section->ID) != '' ) {
+									                                                                        echo $this->get_ddoc_icon($section->ID);
+									                                                                    } else {
+									                                                                        $default_icon = plugins_url('image/doc-sec.webp', __FILE__);
+									                                                                        echo "<img src='$default_icon' alt='{$section->post_title}'>";
+									                                                                    }
+									                                                                    ?>
+									                                                                </div>
+									                                                            </div>
+									                                                            <div class="media-body">
+									                                                                <a href="<?php echo get_permalink($section->ID); ?>">
+									                                                                    <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
+									                                                                </a>
+									                                                                <p>
+									                                                                <?php
+									                                                                if( strlen(trim($section->post_excerpt)) != 0 ) {
+									                                                                    echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
+									                                                                } {
+									                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
+									                                                                }
+									                                                                ?>
+									                                                                </p>
+									                                                            </div>
+									                                                        </div>
+									                                                    </div>
+									                                                </div>
+									                                                <?php
+									                                            endforeach;
+									                                            ?>
+									                                        </div>
+									                                    </div>
+									                                </div>
+									                            </div>
+									                            <?php
+									                        endforeach;
+									                        ?>
+									                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                                         <a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
