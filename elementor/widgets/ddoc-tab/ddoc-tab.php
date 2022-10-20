@@ -186,6 +186,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php endif; ?>
                                             <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
+																								Prueba
                                             <?php endif; ?>
 
 																						<?php the_field('descripcion'); ?>
@@ -195,10 +196,8 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php
                                             if( strlen(trim($main_doc['doc']->post_excerpt)) != 0 ) {
                                                 echo wpautop( wp_trim_words($main_doc['doc']->post_excerpt, $settings['main_doc_excerpt'], '') );
-																								Prueba
                                             } {
                                                 echo wpautop( wp_trim_words($main_doc['doc']->post_content, $settings['main_doc_excerpt'], '') );
-																								Prueba2
                                             }
                                             ?>
                                             <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
