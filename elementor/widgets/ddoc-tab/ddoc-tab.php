@@ -129,7 +129,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     $active = ($i == 0) ? 'active' : '';
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
-                                    <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba<?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
+                                    <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba<?php echo $this->get_ddoc_icon($doc->ID);  ?>
 
 
 
