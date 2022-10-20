@@ -173,9 +173,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 
 									                                            <?php
 									                                            ?>
-									                                            <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
-									                                                <?php echo esc_html($settings['read_more']); ?> <i class="fas fa-arrow-right"></i>
-									                                            </a>
 									                                        </div>
 									                                    </div>
 									                                </div>
