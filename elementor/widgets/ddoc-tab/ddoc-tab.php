@@ -189,6 +189,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php endif; ?>
 
 																						<?php the_field('descripcion'); ?>
+																						Prueba
 
 
                                             <?php
