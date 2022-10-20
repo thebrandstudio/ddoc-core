@@ -130,68 +130,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
                                     <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba<?php echo $this->get_ddoc_icon($doc->ID);  ?>
-
-
-
-
-
-
-
-									                        <?php
-									                        foreach ($docs as $i => $main_doc) :
-									                            $active = ($i == 0) ? 'active' : '';
-									                            ?>
-									                            <div class="tab-pane fade show <?php echo esc_attr($active); ?>" id="doc-<?php echo esc_attr($main_doc['doc']->ID) ?>">
-									                                <div class="row">
-									                                    <div class=" col-lg col-md-12 col-12">
-									                                        <div class="tab_left_content">
-									                                            <?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
-									                                                <div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
-									                                                    <?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
-									                                                </div>
-									                                            <?php endif; ?>
-									                                            <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
-									                                                <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
-									                                            <?php endif; ?>
-									                                        </div>
-									                                    </div>
-									                                </div>
-									                            </div>
-									                            <?php
-									                        endforeach;
-									                        ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                         <a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
                                             <?php
                                             if ( $settings['is_tab_title_first_word'] == 'yes' ) {
