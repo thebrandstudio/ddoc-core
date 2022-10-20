@@ -110,7 +110,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 		$settings = $this->get_settings();
 
    ?>
- 
+
  <!-- Start dt_our_live_document_wrap-->
     <section class="dt_our_live_document_wrap">
         <div class="container">
@@ -129,7 +129,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     $active = ($i == 0) ? 'active' : '';
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
-                                    <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">
+                                    <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba
                                         <a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
                                             <?php
                                             if ( $settings['is_tab_title_first_word'] == 'yes' ) {
@@ -175,7 +175,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                             <div class="tab-pane fade show <?php echo esc_attr($active); ?>" id="doc-<?php echo esc_attr($main_doc['doc']->ID) ?>">
                                 <div class="row">
                                     <div class=" col-lg col-md-12 col-12">
-                                        <div class="tab_left_content">       
+                                        <div class="tab_left_content">
                                             <?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
                                                 <div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
                                                     <?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
@@ -199,8 +199,8 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     </div>
                                     <div class="col-lg-8 col-md-12 col-12">
                                         <div class="row tab_right_content">
-                                            <?php 
-                                                foreach ($main_doc['sections'] as $section) :   
+                                            <?php
+                                                foreach ($main_doc['sections'] as $section) :
                                                     $icon_bg_color = get_post_meta( $section->ID, 'tab_icon_background', true );
                                                 ?>
                                                 <div class="col-md-6 col-sm-12 col-12">
@@ -208,7 +208,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                                         <div class="media">
                                                             <div class="media-left">
                                                                 <?php  $iconclass = 'img_wrap post-icon-'.$section->ID;  ?>
-                            
+
                                                                 <div class="<?php echo esc_attr( $iconclass ); ?>" <?php if(!empty( $icon_bg_color )){ ?> style="background-color: <?php echo esc_attr($icon_bg_color) ?>" <?php } ?>>
                                                                    <?php
                                                                     if ( $this->get_ddoc_icon($section->ID) != '' ) {
@@ -254,7 +254,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
     </section>
     <!-- end dt_our_live_document_wrap -->
 
-<?php 
+<?php
  }
  protected  function get_ddoc_icon ( $post_id )  {
     $icon = '';
@@ -262,12 +262,12 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
         $get_icon_type = get_field('select_icon_type_', $post_id, true);
 
         if($get_icon_type == 'icon'){
-            $icon = get_field('select_icon', $post_id, true);            
+            $icon = get_field('select_icon', $post_id, true);
         }elseif($get_icon_type == 'image'){
-            $imgeId = get_field('upload_image_icon_svg', $post_id, true); 
-            $icon = wp_get_attachment_image($imgeId['ID'], 'full');   
+            $imgeId = get_field('upload_image_icon_svg', $post_id, true);
+            $icon = wp_get_attachment_image($imgeId['ID'], 'full');
         }
-     }      
+     }
      return $icon;
  }
 }
