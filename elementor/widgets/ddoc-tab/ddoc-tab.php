@@ -138,22 +138,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 
 
 									                        <?php
-									                        if ( $parent_docs ) {
-									                            foreach ($parent_docs as $root) {
-									                                $sections = get_children( array(
-									                                    'post_parent'    => $root->ID,
-									                                    'post_type'      => 'docs',
-									                                    'post_status'    => 'publish',
-									                                    'orderby'        => 'menu_order',
-									                                    'order'          => 'ASC',
-									                                    'posts_per_page' => !empty($settings['show_section_count']) ? $settings['show_section_count'] : -1,
-									                                ) );
-									                                $docs[] = array(
-									                                    'doc'      => $root,
-									                                    'sections' => $sections
-									                                );
-									                            }
-									                        }
+
 
 									                        foreach ($docs as $i => $main_doc) :
 									                            $active = ($i == 0) ? 'active' : '';
