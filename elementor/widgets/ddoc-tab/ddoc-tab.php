@@ -187,19 +187,10 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
                                             <?php endif; ?>
-																						<p style="color: #08285B;"><?php
-																						$shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
-																						echo do_shortcode($shortcode);
-																						?></p>
-
-
-                                            <?php
-                                            if( strlen(trim($main_doc['doc']->post_excerpt)) != 0 ) {
-                                                echo wpautop( wp_trim_words($main_doc['doc']->post_excerpt, $settings['main_doc_excerpt'], '') );
-                                            } {
-                                                echo wpautop( wp_trim_words($main_doc['doc']->post_content, $settings['main_doc_excerpt'], '') );
-                                            }
-                                            ?>
+																						<p style="font-size: 24px; font-weight: 300;">
+																							<?php $shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
+																								echo do_shortcode($shortcode);?>
+																						</p>
                                             <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
                                                 <?php echo esc_html($settings['read_more']); ?> <i class="fas fa-arrow-right"></i>
                                             </a>
