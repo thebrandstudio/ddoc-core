@@ -137,12 +137,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 
 
 
-									                        <?php
-
-
-									                        foreach ($docs as $i => $main_doc) :
-									                            $active = ($i == 0) ? 'active' : '';
-									                            ?>
 									                            <div class="tab-pane fade show <?php echo esc_attr($active); ?>" id="doc-<?php echo esc_attr($main_doc['doc']->ID) ?>">
 									                                <div class="row">
 									                                    <div class=" col-lg col-md-12 col-12">
@@ -159,9 +153,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 									                                    </div>
 									                                </div>
 									                            </div>
-									                            <?php
-									                        endforeach;
-									                        ?>
+
 
 
 
