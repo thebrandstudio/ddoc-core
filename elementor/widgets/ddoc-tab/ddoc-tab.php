@@ -172,6 +172,15 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 									                                            <?php endif; ?>
 
 									                                            <?php
+									                                            if( strlen(trim($main_doc['doc']->post_excerpt)) != 0 ) {
+									                                                echo wpautop( wp_trim_words($main_doc['doc']->post_excerpt, $settings['main_doc_excerpt'], '') );
+									                                            } {
+									                                                echo wpautop( wp_trim_words($main_doc['doc']->post_content, $settings['main_doc_excerpt'], '') );
+									                                            }
+									                                            ?>
+									                                            <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
+									                                                <?php echo esc_html($settings['read_more']); ?> <i class="fas fa-arrow-right"></i>
+									                                            </a>
 									                                        </div>
 									                                    </div>
 									                                </div>
