@@ -189,7 +189,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 																								Prueba
                                             <?php endif; ?>
 
-																						<?php endif;
+																						<?php
 																						$value = get_field( "descripcion" );
 
 																						if( $value ) {
