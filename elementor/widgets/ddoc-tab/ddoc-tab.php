@@ -129,16 +129,17 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     $active = ($i == 0) ? 'active' : '';
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
-                                    <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba<?php echo $this->get_ddoc_icon($doc->ID);  ?>
-                                        <a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
-                                            <?php
-                                            if ( $settings['is_tab_title_first_word'] == 'yes' ) {
-                                                echo wp_kses_post($doc_name[0]);
-                                            } else {
-                                                echo wp_kses_post($doc->post_title);
-                                            }
-                                            ?>
-                                        </a>
+                                    <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">
+																			<a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
+																				<?php echo $this->get_ddoc_icon($doc->ID);  ?>
+                                        <?php
+																					if ( $settings['is_tab_title_first_word'] == 'yes' ) {
+                                          	echo wp_kses_post($doc_name[0]);
+                                          } else {
+                                            echo wp_kses_post($doc->post_title);
+                                          }
+                                        ?>
+                                      </a>
                                     </li>
                                     <?php
                                 }
