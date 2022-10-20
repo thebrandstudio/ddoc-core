@@ -192,15 +192,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 																						<?php
 																						$shortcode = get_post_meta($post->ID,'descripcion',true);
 																						echo do_shortcode($shortcode);
-																						
-																						[acf field="{$field_name}" post_id="{$post_id}"]
-																						$value = get_field( "descripcion" );
-
-																						if( $value ) {
-																						    echo $value;
-																						} else {
-																						    echo 'empty';
-																						}
 																						?>
 
 
