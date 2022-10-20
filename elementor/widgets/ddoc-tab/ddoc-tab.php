@@ -132,9 +132,14 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     <li class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">Prueba
 
 
-																			<div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
-																					<?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
-																			</div>
+																			<?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
+																					<div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
+																							<?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
+																					</div>
+																			<?php endif; ?>
+																			<?php if ( !empty($main_doc['doc']->post_title) ) : ?>
+																					<h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
+																			<?php endif; ?>
 
 
                                         <a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
