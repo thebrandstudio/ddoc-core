@@ -186,7 +186,9 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php endif; ?>
                                             <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
-                                            <?php endif; ?>
+
+                                            <?php [acf field="{$descripcion}" post_id="{$post_id}"] ?>
+
 
                                             <?php
                                             if( strlen(trim($main_doc['doc']->post_excerpt)) != 0 ) {
