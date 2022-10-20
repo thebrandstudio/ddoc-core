@@ -187,7 +187,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                             <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
                                             <?php endif; ?>
-																						<p id="descripcion" style="font-size: 24px;">
+																						<p id="descripcion" style="color: #08285B; font-size: 24px;">
 																							<?php $shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
 																								echo do_shortcode($shortcode);?>
 																						</p>
