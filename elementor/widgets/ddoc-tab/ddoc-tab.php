@@ -156,6 +156,9 @@ li#icono-3855 {
 li#icono-1644 {
   order: 2;
 }
+li#icono-6502 {
+  order: 3;
+}
 </style>
 
 
