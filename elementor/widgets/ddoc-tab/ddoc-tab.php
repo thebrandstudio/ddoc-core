@@ -151,7 +151,10 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 
 <style>
 li#icono-3855 {
-  order: 5;
+  order: 1;
+}
+li#icono-1644 {
+  order: 2;
 }
 </style>
 
