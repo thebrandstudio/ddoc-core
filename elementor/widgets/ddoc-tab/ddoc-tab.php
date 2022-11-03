@@ -180,7 +180,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     <div class=" col-lg col-md-12 col-12">
                                         <div class="tab_left_content">
                                             <?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
-                                                <div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
+                                                <div id="icono" class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
                                                     <?php echo $this->get_ddoc_icon($main_doc['doc']->ID);  ?>
                                                 </div>
                                             <?php endif; ?>
