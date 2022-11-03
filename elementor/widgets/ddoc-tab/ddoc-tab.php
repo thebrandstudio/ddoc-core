@@ -154,7 +154,7 @@ ul li:first-child {
   order: 5;
 }
 ul li:nth-child(2) {
-  order: 4;
+  order: 1;
 }
 ul li:nth-child(3) {
   order: 3;
