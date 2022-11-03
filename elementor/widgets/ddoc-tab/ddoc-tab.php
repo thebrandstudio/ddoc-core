@@ -153,7 +153,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
 ul li:first-child {
   order: 5;
 }
-ul li:nth-child(2) {
+li#icono-3855 {
   order: 1;
 }
 ul li:nth-child(3) {
