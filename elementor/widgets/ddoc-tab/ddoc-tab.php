@@ -148,6 +148,23 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                             }
                             ?>
                         </ul>
+
+<style>
+ul li:first-child {
+  order: 5;
+}
+ul li:nth-child(2) {
+  order: 4;
+}
+ul li:nth-child(3) {
+  order: 3;
+}
+ul li:nth-child(4) {
+  order: 2;
+}
+</style>
+
+
                     </div>
                 </div>
             </div>
