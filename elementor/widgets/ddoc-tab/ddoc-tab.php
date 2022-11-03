@@ -117,7 +117,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
             <div class="row">
                 <div class="col-12">
                     <div class="tab_menu_content dt_doc_tab_content">
-                        <ul class="nav nav-tabs" style="display: flex; flex-direction: column;">
+                        <ul class="nav nav-tabs" style="display: flex; flex-direction: row;">
                             <?php
                             $parent_docs = get_pages(array(
                                 'post_type'     => 'docs',
