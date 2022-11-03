@@ -126,7 +126,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                             ));
                             if ( $parent_docs ) {
                                 foreach ($parent_docs as $i => $doc) {
-                                    $active = ($i == 0) ? 'active' : '';
+                                    $active = ($i == 4) ? 'active' : '';
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
                                     <li id="icono-<?php echo esc_attr($doc->ID); ?>" class="nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">
