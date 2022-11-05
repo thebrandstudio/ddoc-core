@@ -131,7 +131,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     ?>
                                     <li id="icono-<?php echo esc_attr($doc->ID); ?>" class=" col-2 nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">
 																			<a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
-																				<div class="img post-icon-<?php echo esc_attr($doc->ID); ?>" style="height: 56px; width: 56px; margin-left: auto; margin-right: auto;">
+																				<div class="img post-icon-<?php echo esc_attr($doc->ID); ?>" style="height: 70px; width: 70px; margin-left: auto; margin-right: auto;">
 																						<?php echo $this->get_ddoc_icon($doc->ID);  ?>
 																				</div>
                                         <?php
@@ -148,29 +148,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                             }
                             ?>
                         </ul>
-
-<style>
-li#icono-3855 {
-  order: 1;
-}
-li#icono-1644 {
-  order: 2;
-}
-li#icono-6502 {
-  order: 3;
-}
-li#icono-5886 {
-  order: 4;
-}
-li#icono-1164 {
-  order: 5;
-}
-li#icono-6554 {
-  order: 6;
-}
-</style>
-
-
                     </div>
                 </div>
             </div>
@@ -275,6 +252,29 @@ li#icono-6554 {
         </div>
     </section>
     <!-- end dt_our_live_document_wrap -->
+
+		<style>
+		li#icono-3855 {
+		  order: 1;
+		}
+		li#icono-1644 {
+		  order: 2;
+		}
+		li#icono-6502 {
+		  order: 3;
+		}
+		li#icono-5886 {
+		  order: 4;
+		}
+		li#icono-1164 {
+		  order: 5;
+		}
+		li#icono-6554 {
+		  order: 6;
+		}
+		</style>
+
+
 
 <?php
  }
