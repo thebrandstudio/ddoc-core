@@ -252,30 +252,6 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
         </div>
     </section>
     <!-- end dt_our_live_document_wrap -->
-
-		<style>
-		li#icono-3855 {
-		  order: 1;
-		}
-		li#icono-1644 {
-		  order: 2;
-		}
-		li#icono-6502 {
-		  order: 3;
-		}
-		li#icono-5886 {
-		  order: 4;
-		}
-		li#icono-1164 {
-		  order: 5;
-		}
-		li#icono-6554 {
-		  order: 6;
-		}
-		</style>
-
-
-
 <?php
  }
  protected  function get_ddoc_icon ( $post_id )  {
