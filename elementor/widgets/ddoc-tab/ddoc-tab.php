@@ -129,7 +129,14 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     $active = ($i == 1) ? 'active' : '';
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
-                                    <li id="icono-<?php echo esc_attr($doc->ID); ?>" class=" col-2 nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>">
+                                    <li id="icono-<?php echo esc_attr($doc->ID); ?>" class=" col-2 nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>"
+data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.3,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+
+
+
+
+
+																			>
 																			<a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
 																				<div class="img post-icon-<?php echo esc_attr($doc->ID); ?>" style="height: 70px; width: 70px; margin-left: auto; margin-right: auto;">
 																						<?php echo $this->get_ddoc_icon($doc->ID);  ?>
