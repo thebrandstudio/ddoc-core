@@ -116,8 +116,48 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="tab_menu_content dt_doc_tab_content">
-                        <ul class="row nav nav-tabs" style="display: flex; flex-direction: row; justify-content: space-evenly;">
+
+
+
+									<div class="elementor-container elementor-column-gap-default">
+										<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-9b9bccb" data-id="9b9bccb" data-element_type="column">
+													<div class="elementor-widget-wrap elementor-element-populated">
+																		<div class="elementor-element elementor-element-644bb94 elementor-view-default elementor-widget elementor-widget-icon" data-id="644bb94" data-element_type="widget" data-widget_type="icon.default">
+														<div class="elementor-widget-container">
+															<div class="elementor-icon-wrapper">
+													<div class="elementor-icon">
+													<i aria-hidden="true" class="fas fa-star"></i>			</div>
+												</div>
+														</div>
+														</div>
+															</div>
+												</div>
+
+												<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-9b9bccb" data-id="9b9bccb" data-element_type="column">
+															<div class="elementor-widget-wrap elementor-element-populated">
+																				<div class="elementor-element elementor-element-644bb94 elementor-view-default elementor-widget elementor-widget-icon" data-id="644bb94" data-element_type="widget" data-widget_type="icon.default">
+																<div class="elementor-widget-container">
+																	<div class="elementor-icon-wrapper">
+															<div class="elementor-icon">
+															<i aria-hidden="true" class="fas fa-star"></i>			</div>
+														</div>
+																</div>
+																</div>
+																	</div>
+												</div>
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+
                             <?php
                             $parent_docs = get_pages(array(
                                 'post_type'     => 'docs',
@@ -129,13 +169,19 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                                     $active = ($i == 1) ? 'active' : '';
                                     $doc_name = explode( ' ', $doc->post_title );
                                     ?>
+
+
+
+
+
+
+
+
+
+
+
+
                                     <li id="icono-<?php echo esc_attr($doc->ID); ?>" class=" col-2 nav-item" data-id="#doc-<?php echo esc_attr($doc->ID); ?>"
-data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.3,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-
-
-
-
-
 																			>
 																			<a class="nav-link <?php echo 'doc-'.esc_attr($doc->ID).' '; echo esc_attr($active) ?>" data-toggle="tab" href="#doc-<?php echo esc_attr($doc->ID) ?>">
 																				<div class="img post-icon-<?php echo esc_attr($doc->ID); ?>" style="height: 70px; width: 70px; margin-left: auto; margin-right: auto;">
