@@ -177,7 +177,7 @@ class DRTH_ESS_Ddoc_Tab extends Widget_Base {
                             ?>
                             <div class="tab-pane fade show <?php echo esc_attr($active); ?>" id="doc-<?php echo esc_attr($main_doc['doc']->ID) ?>">
                                 <div class="row">
-                                    <div class=" col-lg col-md-12 col-12">
+                                    <div class=" col-lg-4 col-md-12 col-12">
                                         <div class="tab_left_content">
                                             <?php if ( $this->get_ddoc_icon($main_doc['doc']->ID) != '') : ?>
                                                 <div class="img post-icon-<?php echo esc_attr($main_doc['doc']->ID); ?>">
