@@ -198,8 +198,8 @@ class DRTH_ESS_Video_Docs extends Widget_Base {
                                 <div class="bottom_line border-bottom"></div>
                                 <div class="author-info d-flex justify-content-between align-items-center">
                                     <div class="author d-flex">
-                                        <?php echo get_avatar($author_id, 32, '', '', array( 'class' => 'img-rounded me-1' )) ?>
-                                        <h4 class="name">Cinépolis Klic®</h4>
+                                      <img alt="" src="/wp-content/uploads/2022/03/icono-klic-b.svg" class="avatar avatar-32 photo img-rounded me-1" height="32" width="32" loading="lazy" decoding="async">
+                                      <h4 class="name">Cinépolis Klic®</h4>
                                     </div>
                                     <p class="date mb-0"><?php echo get_the_date() ?></p>
                                 </div>
