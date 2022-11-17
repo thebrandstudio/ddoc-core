@@ -28,7 +28,7 @@ class DRTH_ESS_Video_Docs extends Widget_Base {
     protected function register_controls() {
         do_action('dl_widgets/video/register_control/start', $this);
 
-        // add content 
+        // add content
         $this->_content_control();
 
         //style section
@@ -199,7 +199,7 @@ class DRTH_ESS_Video_Docs extends Widget_Base {
                                 <div class="author-info d-flex justify-content-between align-items-center">
                                     <div class="author d-flex">
                                         <?php echo get_avatar($author_id, 32, '', '', array( 'class' => 'img-rounded me-1' )) ?>
-                                        <h4 class="name"><?php echo esc_html($author_name) ?></h4>
+                                        <h4 class="name">Cinépolis Klic®</h4>
                                     </div>
                                     <p class="date mb-0"><?php echo get_the_date() ?></p>
                                 </div>
