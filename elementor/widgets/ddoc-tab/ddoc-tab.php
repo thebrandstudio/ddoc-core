@@ -227,6 +227,7 @@ li#icono-6554 {
                                                 ?>
                                                 <div class="col-md-6 col-sm-12 col-12">
                                                     <div class="dt_knowledge_item">
+																											<a href="#">
                                                         <div class="media">
                                                             <div class="media-left">
                                                                 <?php  $iconclass = 'img_wrap post-icon-'.$section->ID;  ?>
@@ -257,6 +258,7 @@ li#icono-6554 {
                                                                 </p>
                                                             </div>
                                                         </div>
+																											</a>
                                                     </div>
                                                 </div>
                                                 <?php
