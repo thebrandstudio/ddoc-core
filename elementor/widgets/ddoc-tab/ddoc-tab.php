@@ -227,7 +227,7 @@ li#icono-6554 {
                                                 ?>
                                                 <div class="col-md-6 col-sm-12 col-12">
                                                     <div class="dt_knowledge_item">
-																											<a href="#">
+																											<a href="<?php echo get_permalink($section->ID); ?>">
                                                         <div class="media">
                                                             <div class="media-left">
                                                                 <?php  $iconclass = 'img_wrap post-icon-'.$section->ID;  ?>
@@ -244,9 +244,7 @@ li#icono-6554 {
                                                                 </div>
                                                             </div>
                                                             <div class="media-body">
-                                                                <a href="<?php echo get_permalink($section->ID); ?>">
-                                                                    <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
-                                                                </a>
+                                                                <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
                                                                 <p>
                                                                 <?php
                                                                 if( strlen(trim($section->post_excerpt)) != 0 ) {
