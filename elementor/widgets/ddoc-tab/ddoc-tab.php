@@ -172,6 +172,11 @@ li#icono-6554 {
 	color: #08285B;
 	font-size: 24px;
 }
+@media only screen and (max-width: 600px) {
+	#descripcion{
+		font-size: 18px;
+	}
+}
 </style>
 
 
