@@ -174,7 +174,7 @@ li#icono-6554 {
 }
 @media only screen and (max-width: 600px) {
 	#descripcion{
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 </style>
