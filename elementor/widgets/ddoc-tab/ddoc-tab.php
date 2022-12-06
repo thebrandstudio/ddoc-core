@@ -168,6 +168,10 @@ li#icono-1164 {
 li#icono-6554 {
   order: 6;
 }
+#descripcion{
+	color: #08285B;
+	font-size: 24px;
+}
 </style>
 
 
@@ -210,7 +214,7 @@ li#icono-6554 {
                                             <?php if ( !empty($main_doc['doc']->post_title) ) : ?>
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
                                             <?php endif; ?>
-																						<p id="descripcion" style="color: #08285B; font-size: 24px;">
+																						<p id="descripcion">
 																							<?php $shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
 																								echo do_shortcode($shortcode);?>
 																						</p>
