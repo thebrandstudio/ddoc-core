@@ -264,7 +264,7 @@ li#icono-6554 {
                                                                 ?>
 
 
-																																<b style="font-weight: bold;">... [Leer más]</b><?php the_field('descripcion'); ?>
+																																<b style="font-weight: bold;">... [Leer más]</b>Prueba<?php the_field('descripcion'); ?>
                                                                 </p>
                                                             </div>
                                                         </div>
