@@ -261,7 +261,7 @@ li#icono-6554 {
                                                                 } else {
                                                                     echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
                                                                 }
-                                                                ?>... [Leer más]
+                                                                ?><b>... [Leer más]</b>
                                                                 </p>
                                                             </div>
                                                         </div>
