@@ -265,10 +265,9 @@ li#icono-6554 {
 																																{
 																																    echo '<p>' . get_field('titulo') . '</p>';
 																																}
+																																echo '<p>Test</p>';
                                                                 ?>
-
 																																<b style="font-weight: bold;">... [Leer más]</b>
-
                                                                 </p>
                                                             </div>
                                                         </div>
