@@ -263,8 +263,10 @@ li#icono-6554 {
                                                                 }
                                                                 ?>
 
+																																<b style="font-weight: bold;">... [Leer más]</b>
 
-																																<b style="font-weight: bold;">... [Leer más]</b><?php [acf field="{$descripcion}" post_id="{$post_id}"] ?>
+																																<?php echo wp_kses_post($section->post_title); ?>
+
                                                                 </p>
                                                             </div>
                                                         </div>
