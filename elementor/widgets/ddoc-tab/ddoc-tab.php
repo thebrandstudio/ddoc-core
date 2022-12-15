@@ -261,9 +261,9 @@ li#icono-6554 {
                                                                 } else {
                                                                     echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
                                                                 }
-																																if(get_field('descripcion'))
+																																if(get_field('titulo'))
 																																{
-																																    echo '<p>' . get_field('descripcion') . '</p>';
+																																    echo '<p>' . get_field('titulo') . '</p>';
 																																}
                                                                 ?>
 
