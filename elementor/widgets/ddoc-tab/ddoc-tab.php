@@ -263,9 +263,6 @@ li#icono-6554 {
                                                                 }
                                                                 ?>
 
-																																<b style="font-weight: bold;">... [Leer más]</b>
-
-																																<?php echo wp_kses_post($section->post_title); ?>
 
                                                                 </p>
                                                             </div>
