@@ -266,6 +266,7 @@ li#icono-6554 {
 																																    echo '<p>' . get_field('titulo') . '</p>';
 																																}
 																																echo '<p>Test</p>';
+																																the_field('descripcion', $section);
                                                                 ?>
 																																<b style="font-weight: bold;">... [Leer más]</b>
                                                                 </p>
