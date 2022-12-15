@@ -262,9 +262,9 @@ li#icono-6554 {
                                                                     echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
                                                                 }
                                                                 ?>
-																																<?php the_field('descripcion'); ?>
 
-																																<b style="font-weight: bold;">... [Leer más]</b>
+
+																																<b style="font-weight: bold;">... [Leer más]</b><?php the_field('descripcion'); ?>
                                                                 </p>
                                                             </div>
                                                         </div>
