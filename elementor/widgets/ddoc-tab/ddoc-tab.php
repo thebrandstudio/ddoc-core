@@ -258,13 +258,15 @@ li#icono-6554 {
                                                                 <?php
                                                                 if( strlen(trim($section->post_excerpt)) ) {
                                                                     echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
-                                                                } else {
+                                                                } elseif( strlen(the_field('descripcion', $section)) ) {
                                                                     echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
-                                                                }
+                                                                } else {
+																																	echo '<p>';
+																																	the_field('descripcion', $section);
+																																	echo '</p>';
+																																}
 
-																																echo '<p>';
-																																the_field('descripcion', $section);
-																																echo '</p>';
+
                                                                 ?>
 
                                                                 </p>
