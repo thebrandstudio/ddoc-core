@@ -256,8 +256,10 @@ li#icono-6554 {
                                                                 <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
                                                                 <p>
                                                                 <?php
-                                                                if( strlen(trim($section->post_excerpt)) != 0 ) {
+                                                                if( strlen(trim($section->post_excerpt)) ) {
                                                                     echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
+                                                                } else {
+                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
                                                                 }
 
 																																echo '<p>';
