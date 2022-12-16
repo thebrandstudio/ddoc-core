@@ -254,22 +254,29 @@ li#icono-6554 {
                                                             </div>
                                                             <div class="media-body">
                                                                 <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
+
                                                                 <p>
-                                                                <?php
-                                                                if( strlen(trim($section->post_excerpt)) ) {
-                                                                    echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
-                                                                } elseif( strlen(the_field('descripcion', $section)) ) {
-                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
-                                                                } else {
-																																	echo '<p>';
-																																	the_field('descripcion', $section);
-																																	echo '</p>';
-																																}
+	                                                                <?php
+	                                                                if( strlen(trim($section->post_excerpt)) ) {
+	                                                                    echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
+	                                                                } elseif( strlen(the_field('descripcion', $section)) ) {
+	                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
+	                                                                } else {
+																																		echo '<p>';
+																																		the_field('descripcion', $section);
+																																		echo '</p>';
+																																	}
+
+																																	if( strlen(the_field('descripcion', $section)) ) {
+	                                                                    echo '<p>Falso</p>';
+	                                                                } else {
+	                                                                    echo '<p>Verdadero</p>';
+	                                                                }
 
 
-                                                                ?>
-
+	                                                                ?>
                                                                 </p>
+
                                                             </div>
                                                         </div>
 																											</a>
