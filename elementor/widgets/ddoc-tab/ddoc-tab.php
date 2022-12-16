@@ -257,7 +257,7 @@ li#icono-6554 {
                                                                 <p>
                                                                 <?php
 
-																																if( strlen(the_field('descripcion', $section)) != 0 ) {
+																																if( strlen(the_field('descripcion', $section)) != '' ) {
 																																		echo '<p>Verdadero</p>';
 																																} else {
 																																		echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
