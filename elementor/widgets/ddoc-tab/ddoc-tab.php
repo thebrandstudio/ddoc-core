@@ -255,13 +255,15 @@ li#icono-6554 {
                                                             <div class="media-body">
                                                                 <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
                                                                 <p>
-	                                                                <?php
-																																	if( strlen(the_field('descripcion', $section)) ) {
-	                                                                    echo '<p>Verdadero</p>';
-	                                                                } else {
-	                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
-	                                                                }
-	                                                                ?>
+                                                                <?php
+
+																																if( strlen(the_field('descripcion', $section)) != 0 ) {
+																																		echo '<p>Verdadero</p>';
+																																} else {
+																																		echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
+																																}
+
+                                                                ?>
                                                                 </p>
                                                             </div>
                                                         </div>
