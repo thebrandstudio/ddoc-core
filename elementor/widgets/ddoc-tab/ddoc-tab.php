@@ -265,7 +265,7 @@ li#icono-6554 {
 																																if( the_field('descripcion', $section) != 0 ) {
                                                                     echo '<p>Vacio</p>'
                                                                 } else {
-																																		echo '<p>' . the_field('descripcion', $section); . '</p>'
+																																		echo '<p>' . the_field('descripcion', $section) . '</p>'
                                                                 }
 
 
