@@ -256,16 +256,11 @@ li#icono-6554 {
                                                                 <h4> <?php echo wp_kses_post($section->post_title); ?> </h4>
                                                                 <p>
                                                                 <?php
-
-																																if( strlen(the_field('descripcion', $section)) != '' ) {
-																																	  echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
-																																} else {
-																																		echo '<p>Falso</p>';
-																																}
-
-
-																																echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
-
+                                                                if( strlen(trim($section->post_excerpt)) != 0 ) {
+                                                                    echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
+                                                                } else {
+                                                                    echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
+                                                                }
                                                                 ?>
                                                                 </p>
                                                             </div>
