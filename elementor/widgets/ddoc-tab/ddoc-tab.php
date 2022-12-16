@@ -223,6 +223,9 @@ li#icono-6554 {
 																							<?php $shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
 																								echo do_shortcode($shortcode);?>
 																						</p>
+																						<p id="extracto">
+																							<?php	echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');?>
+																						</p>
                                             <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
                                                 <?php echo esc_html($settings['read_more']); ?> <i class="fas fa-arrow-right"></i>
                                             </a>
