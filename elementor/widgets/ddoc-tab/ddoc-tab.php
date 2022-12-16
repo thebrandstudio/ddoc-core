@@ -262,7 +262,7 @@ li#icono-6554 {
                                                                     echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
                                                                 }
 
-																																if( the_field('descripcion', $section) != 0 ) {
+																																if(the_field('descripcion', $section)) {
                                                                     echo '<p>Vacio</p>'
                                                                 } else {
 																																		the_field('descripcion', $section);
