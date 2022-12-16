@@ -263,6 +263,9 @@ li#icono-6554 {
 																																		echo '<p>Falso</p>';
 																																}
 
+
+																																echo wp_trim_words($section->post_excerpt, $settings['doc_sec_excerpt'], '');
+
                                                                 ?>
                                                                 </p>
                                                             </div>
