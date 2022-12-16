@@ -263,7 +263,7 @@ li#icono-6554 {
                                                                 }
 
 																																echo '<p>Test</p>';
-																																the_field('descripcion', $section);
+																																<p>the_field('descripcion', $section);</p>
 
                                                                 ?>
 																																<b style="font-weight: bold;">... [Leer más]</b>
