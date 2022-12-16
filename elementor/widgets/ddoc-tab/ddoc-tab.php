@@ -220,10 +220,6 @@ li#icono-6554 {
                                                 <h3> <?php echo wp_kses_post($main_doc['doc']->post_title); ?> </h3>
                                             <?php endif; ?>
 																						<p id="descripcion">
-																							<?php $shortcode = get_post_meta($main_doc['doc']->ID,'descripcion',true);
-																								echo do_shortcode($shortcode);?>
-																						</p>
-																						<p id="extracto">
 																							<?php	echo wp_kses_post($main_doc['doc']->post_excerpt);?>
 																						</p>
                                             <a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>" class="read_more">
