@@ -263,8 +263,6 @@ li#icono-6554 {
                                                                 }
 
 																																if(the_field('descripcion', $section)) {
-                                                                    echo '<p>Vacio</p>'
-                                                                } else {
 																																		the_field('descripcion', $section);
                                                                 }
 
