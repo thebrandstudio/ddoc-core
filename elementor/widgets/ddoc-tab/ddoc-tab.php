@@ -261,12 +261,14 @@ li#icono-6554 {
                                                                 } else {
                                                                     echo wp_trim_words($section->post_content, $settings['doc_sec_excerpt'], '');
                                                                 }
-																																if(get_field('titulo'))
-																																{
-																																    echo '<p>' . get_field('titulo') . '</p>';
-																																}
-																																echo '<p>Test</p>';
-																																the_field('descripcion', $section);
+
+																																if( the_field('descripcion', $section) != 0 ) {
+                                                                    echo '<p>Vacio</p>'
+                                                                } else {
+																																		echo '<p>' . the_field('descripcion', $section); . '</p>'
+                                                                }
+
+
                                                                 ?>
 																																<b style="font-weight: bold;">... [Leer más]</b>
                                                                 </p>
